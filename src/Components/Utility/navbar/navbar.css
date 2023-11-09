@@ -1,13 +1,3 @@
-/* UTILITY */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-/* UTILITY */
-
-/* ROOT */
-* {
-  --font--poppins: "Poppins";
-}
-/* ROOT */
-
 /* NavBar */
 nav {
   height: 2rem;
@@ -53,7 +43,7 @@ a {
 }
 
 .font-poppins {
-  font-family: var(--font--poppins);
+  font-family: var(--poppins);
 }
 
 /* My Costumize */
