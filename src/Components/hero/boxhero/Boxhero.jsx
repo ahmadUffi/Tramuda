@@ -1,7 +1,6 @@
 import "./boxhero.css";
 import Title from "../../Utility/title/Title";
 import Button from "../../Utility/button/Button";
-
 function Boxhero() {
   return (
     <div className="boxhero">
