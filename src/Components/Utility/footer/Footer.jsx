@@ -2,7 +2,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer className="flex flex-row">
+    <footer className="footer flex">
       ⓒ 2023, Tramuda, Inc. All right reversed.
     </footer>
   );
