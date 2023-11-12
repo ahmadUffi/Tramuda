@@ -1,24 +1,30 @@
 /* NavBar */
 nav {
-  height: 2rem;
+  overflow: hidden;
+  font-family: var(--poppins);
+  height: 3.7rem;
+  box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 a {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
 .blur {
-  backdrop-filter: blur(6px) saturate(97%);
-  -webkit-backdrop-filter: blur(6px) saturate(97%);
-  background-color: rgba(17, 25, 40, 0.34);
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  /* backdrop-filter: blur(6px) saturate(97%);
+  -webkit-backdrop-filter: blur(6px) saturate(97%); */
+  background-color: var(--primary);
+  /* border: 1px solid rgba(255, 255, 255, 0.125); */
 }
 
 .fixed {
+  /* position: -webkit-sticky; */
   position: fixed;
-  bottom: 0;
   right: 0;
+  bottom: 0;
   left: 0;
 }
 
@@ -48,11 +54,98 @@ a {
 
 /* My Costumize */
 
-nav .nav-wrapper a:hover {
-  color: blue;
+nav .nav-wrapper .items a {
+  display: flex;
+  gap: 4px;
+}
+
+nav .nav-wrapper .items a:hover {
+  color: var(--secondary);
   transition: all 0.4s;
+}
+
+nav .nav-wrapper .items {
+  display: flex;
+  flex-grow: 3;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 /* My Costumize */
 
+.logo {
+  margin-left: 20px;
+  flex-grow: 1;
+  color: var(--secondary);
+  font-family: "Pacifico";
+}
+
+.logo h1 {
+  color: transparent;
+  background: linear-gradient(
+    425deg,
+    var(--secondary) 22%,
+    transparent 19%,
+    transparent 19%,
+    #ffff 25%,
+    transparent 50%,
+    transparent 50%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* SVG */
+.nav_svg {
+  width: 1.5rem;
+}
+/* SVG */
+
 /* NavBar */
+
+/* Show text */
+/* nav .nav-wrapper .items .home:hover::after {
+  transition: all 0.5s;
+  transform: translateX(20);
+  content: "home";
+} */
+/* Show text */
+
+.item_name {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 640px) {
+  .item_name {
+    display: none;
+  }
+
+  nav .nav-wrapper .items {
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .logo h1 {
+    color: transparent;
+    background: linear-gradient(
+      425deg,
+      var(--secondary) 47%,
+      transparent 19%,
+      transparent 19%,
+      #ffff 90%,
+      transparent 50%,
+      transparent 50%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+/* BREAKPOINTS */
