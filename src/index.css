@@ -4,6 +4,7 @@
   --primary: #29211d;
   --secondary: #554031;
   --green: #5c5947;
+  --black: rgb(1, 1, 1);
   /* font */
   --agbalumo: "Agbalumo", cursive;
   --poppins: "Poppins", sans-serif;
@@ -14,7 +15,20 @@
 }
 
 body {
-  overflow: hidden;
-  background-color: var(--white);
+  background-color: var(--black);
   font-family: var(--poppins);
+}
+
+/* animasi */
+
+@keyframes fadein {
+  from {
+    transform: translateX(-90px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

@@ -9,11 +9,10 @@ function Curosel() {
         <Box
           key={item.id}
           gambar={item.img}
-          title={item.title}
+          title={item.nama}
           asal={item.asal}
-          paragraf1={items.paragraf1}
-          paragraf2={items?.paragraf2}
-          paragraf3={items?.paragraf3}
+          paragraf={item.p1}
+          delay={item.id}
         />
       ))}
     </div>
