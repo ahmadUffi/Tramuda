@@ -1,0 +1,47 @@
+/*  */
+
+.history {
+  font-family: var(--agbalumo);
+}
+
+.history_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px var(--secondary);
+  border-style: none none solid none;
+}
+
+.saved {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.requested {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history_wrapper hr {
+  border: 1px solid var(--secondary);
+}
+
+@media screen and (max-width: 640px) {
+  .history_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-evenly;
+    border: 1px var(--secondary);
+    border-style: none none solid none;
+  }
+
+  .saved h2 {
+    font-size: small;
+  }
+  .requested h2 {
+    font-size: small;
+  }
+}

@@ -1,7 +1,7 @@
-import Gendang from "./img/gendang/Gendang.png";
-import Rebab from "./img/rebab/Rebab.png";
-import Serunai from "./img/serunai/Serunai.png";
-import Siter from "./img/siter/Siter.png";
+// import Gendang from "./img/gendang/Gendang.png";
+// import Rebab from "./img/rebab/Rebab.png";
+// import Serunai from "./img/serunai/Serunai.png";
+// import Siter from "./img/siter/Siter.png";
 import Angklung_Bali from "./img/angklung_bali/Angklung_Bali.png";
 import Angklung_Jawa from "./img/angklung_jawa/Angklung_Jawa.png";
 

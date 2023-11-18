@@ -12,6 +12,7 @@ function Beranda() {
       <Curosel />
       <Navbar />
       <Footer />
+      Hello
     </div>
   );
 }

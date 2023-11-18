@@ -1,0 +1,15 @@
+.logout_btn {
+  font-family: var(--poppins);
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  background-color: var(--green);
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.logout_btn:hover {
+  background-color: var(--secondary);
+}
+@media screen and (max-width: 640px) {
+}

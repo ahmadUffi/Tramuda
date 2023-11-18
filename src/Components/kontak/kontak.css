@@ -1,0 +1,157 @@
+.kontak {
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--green);
+}
+
+.nav {
+  display: block;
+}
+
+.form {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.kontak_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  /* border: 1px solid red; */
+}
+
+.kontak_form header {
+  text-align: center;
+}
+
+.kontak_form header h1 {
+  transition: 0.3s ease;
+
+  font-size: 30px;
+}
+.kontak_form header p {
+  font-size: 15px;
+}
+
+.form_items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item input[type="text"],
+.item input[type="email"] {
+  outline: none;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 21px 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  transition: 0.3s ease;
+}
+
+.msg textarea {
+  background: rgba(0, 0, 0, 0.1);
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+  display: block;
+  padding: 12px 20px;
+  transition: 0.3s ease;
+}
+
+.item label,
+.msg label {
+  display: block;
+  margin: 0 0 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.btn_submit input[type="submit"] {
+  outline: none;
+  background: #4285f4;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* Todo */
+/* .form_items {
+  display: flex;
+  flex-direction: column;
+ 
+} */
+
+@media screen and (max-width: 640px) {
+  .kontak_form header h1 {
+    font-size: 20px;
+  }
+  .kontak_form header p {
+    font-size: 14px;
+  }
+  .form_items {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .form_items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .item_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .item input[type="text"],
+  .item input[type="email"] {
+    padding: 12px 20px;
+  }
+
+  .msg textarea {
+    width: 100%;
+  }
+}
