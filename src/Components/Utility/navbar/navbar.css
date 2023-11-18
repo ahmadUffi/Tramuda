@@ -21,8 +21,9 @@ a {
   /* position: -webkit-sticky; */
   position: fixed;
   right: 0;
-  bottom: 0;
+  top: 0;
   left: 0;
+  z-index: 1000;
 }
 
 .full {
@@ -117,6 +118,10 @@ nav .nav-wrapper .items {
 /* BREAKPOINTS */
 
 @media screen and (max-width: 640px) {
+  .fixed {
+    top: none;
+    bottom: 0;
+  }
   .item_name {
     display: none;
   }

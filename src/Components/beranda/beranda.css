@@ -1,0 +1,29 @@
+.beranda {
+  margin-top: 4rem;
+  padding: 20px;
+}
+
+.beranda .title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beranda .title h1,
+.beranda .title h1 span {
+  color: var(--white);
+  font-size: 62px;
+}
+
+.filter-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+footer {
+  margin-top: 10px;
+}

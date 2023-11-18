@@ -1,9 +1,10 @@
 import Button from "../../../Utility/button/Button";
+import "./box.css";
 
-function Box({ title, asal, gambar, paragraf1, paragraf2, paragraf3 }) {
+function Box({ delay, title, asal, gambar, paragraf }) {
   return (
     <div className="box">
-      <div className="container">
+      <div style={{ animationDelay: `calc(${delay}s)` }} className="container">
         <div className="img">
           <img src={gambar} alt={title} />
         </div>
@@ -13,9 +14,7 @@ function Box({ title, asal, gambar, paragraf1, paragraf2, paragraf3 }) {
               {title}-{asal}
             </h3>
           </div>
-          <p>{paragraf1}</p>
-          <p>{paragraf2}</p>
-          <p>{paragraf3}</p>
+          <p>{paragraf}</p>
           <Button action="Details" />
         </div>
       </div>
