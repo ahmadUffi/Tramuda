@@ -1,17 +1,16 @@
-import Gendang from "./img/gendang/Gendang.png";
-import Rebab from "./img/rebab/Rebab.png";
-import Serunai from "./img/serunai/Serunai.png";
-import Siter from "./img/siter/Siter.png";
-import Angklung_Bali from "./img/angklung_bali/Angklung_Bali.png";
-import Angklung_Jawa from "./img/angklung_jawa/Angklung_Jawa.png";
-
-import Gendang_Bulo from "./img/gendang_bulo/Gendang_Bulo.png";
-import Tambua from "./img/tambua/Tambua.png";
+import Gendang from "./assets/img/gendang/Gendang.png";
+import Rebab from "./assets/img/rebab/Rebab.png";
+import Serunai from "./assets/img/serunai/Serunai.png";
+import Siter from "./assets/img/siter/Siter.png";
+import Angklung_Bali from "./assets/img/angklung_bali/Angklung_Bali.png";
+import Angklung_Jawa from "./assets/img/angklung_jawa/Angklung_Jawa.png";
+import Gandrang_Bulo from "./assets/img/gandrang_bulo/Gandrang_Bulo.png";
+import Tambua from "./assets/img/tambua/Tambua.png";
 
 const items = [
   {
     id: 0,
-    img: "gamabr",
+    img: Gendang,
     nama: "Gendang",
     asal: "Yogyakarta",
     p1: "Gendang Yogyakarta digunakan dalam berbagai jenis seni pertunjukan tradisional Jawa, seperti wayang kulit, tari-tarian, dan pertunjukan musik gamelan. Alat ini memberikan dasar ritmis yang kuat untuk pengiringan dan tarian dalam pertunjukan tersebut.",
@@ -23,7 +22,7 @@ const items = [
 
   {
     id: 1,
-    img: "gamabr",
+    img: Rebab,
     nama: "Rebab",
     asal: "Kalimantan",
     deskripsi: [
@@ -39,7 +38,7 @@ const items = [
 
   {
     id: 2,
-    img: "gamabr",
+    img: Serunai,
     nama: "Serunai",
     asal: "Sumatra",
     deskripsi: [
@@ -55,7 +54,7 @@ const items = [
 
   {
     id: 3,
-    img: "gamabr",
+    img: Siter,
     nama: "Siter",
     asal: "Jawa Barat",
     deskripsi: [
@@ -90,11 +89,10 @@ const items = [
 
   {
     id: 6,
-    img: Gendang_Bulo,
+    img: Gandrang_Bulo,
     nama: "Gendang Bulo",
-    asal: "Jawa Barat",
-    p1: "Siteran atau bisa juga disebut Siter adalah alat musik yang berasal dari Jawa Barat, sebuah provinsi di pulau Jawa, Indonesia. Ini memiliki sejarah yang panjang dalam budaya Jawa Barat dan telah digunakan dalam berbagai konteks selama berabad-abad. Siteran adalah bagian yang tidak terpisahkan dari budaya tradisional Jawa Barat. Siteran biasanya terbuat dari bambu dan memiliki rancangan yang sederhana. Alat musik ini terdiri dari beberapa tabung bambu yang dipotong dalam berbagai panjang, yang kemudian disusun sedemikian rupa untuk menghasilkan nada-nada yang berbeda. Bagian atas tabung-tabung ini dibuka, dan pemain menggunakan teknik meniup untuk menghasilkan melodi. Siteran digunakan dalam berbagai pertunjukan seni tradisional Jawa Barat. Ini sering digunakan untuk mengiringi tari-tarian tradisional, seperti tari Jaipong, tari Topeng, atau tari Sunda lainnya. Siteran menciptakan dasar musikal yang kuat untuk pengiringan tari dan memperkaya pengalaman seni pertunjukan.",
-    p2: "Siteran adalah simbol budaya Jawa Barat dan mencerminkan warisan budaya yang kaya. Suara siteran menciptakan rasa nostalgia dan menghubungkan masyarakat Jawa Barat dengan akar budaya mereka yang dalam. Meskipun siteran adalah instrumen tradisional, alat musik ini terus berkembang dan mendapatkan pengaruh dari musik modern. Beberapa musisi dan komposer mencoba mengintegrasikan siteran dalam musik kontemporer, menciptakan perpaduan unik antara tradisi dan inovasi.",
+    asal: "Makassar",
+    p1: "Gandrang bulo merupakan alat musik tradisional yang berasal dari Makassar. Cara memainkannya disini dipukul menggunakan bulo atau biasa yang disebut dengan bambu dalam Bahasa Makassar. Gandrang bulo merupakan bahasa Makassar, dimana gandrang berarti pukul dan bulo berarti bambu. Bentuk gandrang bulo berupa tabung besar yang terbuat dari kayu. Keunikkannya, alat musik ini memiliki ukuran yang disesuaikan dengan tubuh pemainnya. Di Jawa, gandrang bulo bentuknya mirip dengan gendang. Bedanya, gandrang bulo terdapat ukiran khas Sulawesi Selatan pada bagian tabung. Gandrang bulo kerap dimainkan saat upacara adat penyucian dan pemberkatan benda-benda pusaka. Selain itu, alat musik tradisional ini juga dimainkan dalam beberapa upacara adat serta kesenian masyarakat adat.",
   },
 
   {
