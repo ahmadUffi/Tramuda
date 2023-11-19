@@ -8,7 +8,7 @@ function Filter({ filterFor }) {
   const ref = useRef(null);
   const [value, setValue] = useState("");
   const [isRender, setIsRendered] = useState();
-  const asal = [...new Set(items.map((item) => item.asal))];
+  const asal = ["Semua Daerah", ...new Set(items.map((item) => item.asal))];
 
   useEffect(() => {
     if (ref.current) {
@@ -29,7 +29,7 @@ function Filter({ filterFor }) {
       <Dropdown
         options={asal}
         value={value}
-        placeholder="Select an option"
+        placeholder="Asal Alat Musik"
         className="dropdown"
         ref={ref}
         onChange={selected}
