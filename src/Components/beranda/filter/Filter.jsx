@@ -33,6 +33,7 @@ function Filter({ filterFor }) {
         className="dropdown"
         ref={ref}
         onChange={selected}
+        menuClassName="menu"
       />
     </div>
   );

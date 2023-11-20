@@ -1,8 +1,8 @@
 import Title from "../../Components/Utility/title/Title";
-import Filter from "../../Components/artikel/filter/Filter";
-import Curosel from "../../Components/artikel/curosel/Curosel";
 import Navbar from "../../Components/Utility/navbar/Navbar";
 import Footer from "../..//Components/Utility/footer/Footer";
+import Filter from "./filter/Filter";
+import Curosel from "./curosel/Curosel";
 import "./beranda.css";
 
 function Beranda() {
