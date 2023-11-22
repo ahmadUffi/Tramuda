@@ -2,14 +2,14 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar blur fixed">
+    <nav className="navbar fixed">
       <div className="nav-wrapper font-poppins full flex flex-row">
         <div className="logo">
           <h1>Tramuda.com</h1>
         </div>
         {/* Item */}
         <div className="items">
-          <a href="" className="home">
+          <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -26,7 +26,7 @@ function Navbar() {
             </svg>
             <span className="item_name">home</span>
           </a>
-          <a href="" className="akun">
+          <a href="/akun">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -43,7 +43,7 @@ function Navbar() {
             </svg>
             <span className="item_name">akun</span>
           </a>
-          <a href="" className="kontak">
+          <a href="/kontak">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -1,33 +1,31 @@
 .akun {
   height: 100vh;
-  background-color: var(--primary);
+  background-color: var(--black);
   color: var(--white);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
 }
 
 .akun_wrapper {
-  margin: 5px;
+  background-color: var(--green);
+  height: 70vh;
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
-@media screen and (max-width: 640px) {
+.akun_details {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-left: 1rem;
+}
+@media screen and (max-width: 720px) {
   .akun {
-    gap: 2rem;
+    height: 100%;
   }
   .akun_wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    /* align-items: center; */
-    /* padding: 5rem; */
+    height: 80vh;
+  }
+  .akun_details {
+    gap: 0;
+    margin-left: 0;
   }
 }

@@ -1,12 +1,12 @@
-import Gendang from "./img/gendang/Gendang.png";
-import Rebab from "./img/rebab/Rebab.png";
-import Serunai from "./img/serunai/Serunai.png";
-import Siter from "./img/siter/Siter.png";
-import Angklung_Bali from "./img/angklung_bali/Angklung_Bali.png";
-import Angklung_Jawa from "./img/angklung_jawa/Angklung_Jawa.png";
-
-import Gendang_Bulo from "./img/gendang_bulo/Gendang_Bulo.png";
-import Tambua from "./img/tambua/Tambua.png";
+import Gendang from "./assets/img/gendang/Gendang.png";
+import Rebab from "./assets/img/rebab/Rebab.png";
+import Serunai from "./assets/img/serunai/Serunai.png";
+import Siter from "./assets/img/siter/Siter.png";
+import Angklung_Bali from "./assets/img/angklung_bali/Angklung_Bali.png";
+import Angklung_Jawa from "./assets/img/angklung_jawa/Angklung_Jawa.png";
+import Gandrang_Bulo from "./assets/img/gandrang_bulo/Gandrang_Bulo.png";
+import Tambua from "./assets/img/tambua/Tambua.png";
+import Tifa from "./assets/img/tifa/Tifa.png";
 
 const items = [
   {
@@ -67,8 +67,8 @@ const items = [
 
   {
     id: 6,
-    img: Gendang_Bulo,
-    nama: "Gendang Bulo",
+    img: Gandrang_Bulo,
+    nama: "Gandrang Bulo",
     asal: "Jawa Barat",
     p1: "Siteran atau bisa juga disebut Siter adalah alat musik yang berasal dari Jawa Barat, sebuah provinsi di pulau Jawa, Indonesia. Ini memiliki sejarah yang panjang dalam budaya Jawa Barat dan telah digunakan dalam berbagai konteks selama berabad-abad. Siteran adalah bagian yang tidak terpisahkan dari budaya tradisional Jawa Barat. Siteran biasanya terbuat dari bambu dan memiliki rancangan yang sederhana. Alat musik ini terdiri dari beberapa tabung bambu yang dipotong dalam berbagai panjang, yang kemudian disusun sedemikian rupa untuk menghasilkan nada-nada yang berbeda. Bagian atas tabung-tabung ini dibuka, dan pemain menggunakan teknik meniup untuk menghasilkan melodi. Siteran digunakan dalam berbagai pertunjukan seni tradisional Jawa Barat. Ini sering digunakan untuk mengiringi tari-tarian tradisional, seperti tari Jaipong, tari Topeng, atau tari Sunda lainnya. Siteran menciptakan dasar musikal yang kuat untuk pengiringan tari dan memperkaya pengalaman seni pertunjukan.",
     p2: "Siteran adalah simbol budaya Jawa Barat dan mencerminkan warisan budaya yang kaya. Suara siteran menciptakan rasa nostalgia dan menghubungkan masyarakat Jawa Barat dengan akar budaya mereka yang dalam. Meskipun siteran adalah instrumen tradisional, alat musik ini terus berkembang dan mendapatkan pengaruh dari musik modern. Beberapa musisi dan komposer mencoba mengintegrasikan siteran dalam musik kontemporer, menciptakan perpaduan unik antara tradisi dan inovasi.",

@@ -1,18 +1,20 @@
-import History from "./List/History";
 import "./akun.css";
-import Back from "./back/Back";
-import Logout from "./logout/Logout";
-import Profile from "./profile/Profile";
-// import Title from "../Utility/title/Title";
+import ProfileCard from "./profile_card";
+import Header from "./header";
+import Kontribusi from "./kontribusi";
+import Riwayat from "./riwayat";
 
 function Akun() {
   return (
     <section className="akun">
-      <Back />
+      <Header />
       <div className="akun_wrapper">
-        <Profile />
-        <History />
-        <Logout />
+        <ProfileCard />
+
+        <div className="akun_details">
+          <Kontribusi />
+          <Riwayat />
+        </div>
       </div>
     </section>
   );

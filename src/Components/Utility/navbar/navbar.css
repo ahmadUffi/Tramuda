@@ -8,7 +8,7 @@ nav {
   -moz-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-a {
+nav a {
   color: white;
   text-decoration: none;
 }
@@ -23,7 +23,7 @@ a {
   right: 0;
   top: 0;
   left: 0;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 .full {

@@ -1,11 +1,10 @@
 .kontak {
   height: 100vh;
   overflow: hidden;
-  background-color: var(--green);
-}
-
-.nav {
-  display: block;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
@@ -15,26 +14,34 @@
 }
 
 .kontak_form {
-  width: 100%;
   display: flex;
+  border-radius: 20px;
+  padding: 50px;
+  background-color: rgba(41, 33, 29, 0.4);
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.125);
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
-  /* border: 1px solid red; */
 }
 
 .kontak_form header {
-  text-align: center;
+  display: flex;
+  /* border: 1px solid red; */
+
+  flex-direction: column;
 }
 
 .kontak_form header h1 {
   transition: 0.3s ease;
-
+  color: var(--white);
   font-size: 30px;
 }
 .kontak_form header p {
   font-size: 15px;
+  color: var(--white);
 }
 
 .form_items {
@@ -57,38 +64,40 @@
 
 .item input[type="text"],
 .item input[type="email"] {
+  width: 180px;
+  height: 38px;
   outline: none;
   display: block;
-  background: rgba(0, 0, 0, 0.1);
-  width: 100%;
+  background: var(--primary);
   border: 0;
   border-radius: 4px;
   box-sizing: border-box;
-  padding: 21px 20px;
-  color: rgba(0, 0, 0, 0.6);
+  padding: 3px 7px;
   font-family: inherit;
-  font-size: inherit;
+  font-size: 12px;
   font-weight: 500;
   line-height: inherit;
   transition: 0.3s ease;
+  color: var(--white);
 }
 
 .msg textarea {
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--primary);
+  color: var(--white);
   outline: none;
   border: 0;
   border-radius: 4px;
   display: block;
-  padding: 12px 20px;
+  padding: 3px 7px;
   transition: 0.3s ease;
 }
 
 .item label,
 .msg label {
   display: block;
-  margin: 0 0 10px;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 12px;
+  margin: 0 0 5px;
+  color: var(--white);
+  font-size: 10px;
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
@@ -97,12 +106,14 @@
 
 .btn_submit input[type="submit"] {
   outline: none;
-  background: #4285f4;
+  background: var(--secondary);
   width: 100%;
   border: 0;
   border-radius: 4px;
+  font-weight: 800;
+  letter-spacing: 1px;
   padding: 12px 20px;
-  color: #ffffff;
+  color: var(--white);
   font-family: inherit;
   font-size: inherit;
   font-weight: 500;
@@ -110,14 +121,155 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+.btn_submit input[type="submit"]:hover {
+  transition: all 0.5s;
+  color: var(--secondary);
+  background: var(--white);
+}
 /* Todo */
 /* .form_items {
   display: flex;
   flex-direction: column;
  
 } */
+.floating .alat_float:nth-child(1) {
+  position: fixed;
+  /* animation: zoomInUp 1s ease-in; */
+  animation: spin 1.6s linear infinite;
+  margin: auto;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 60px violet,
+    inset -20px 0 60px blue, inset 20px 0 150px violet, inset -20px 0 150px blue,
+    0 0 50px #fff, -10px 0 60px violet, 10px 0 60px blue;
+  /* z-index: 99; */
+  left: 20%;
+  top: 30%;
+  border-radius: 50%;
+}
+.floating .alat_float:nth-child(2) {
+  position: fixed;
+  animation: spin 1.6s linear infinite;
+  margin: auto;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 60px violet,
+    inset -20px 0 60px blue, inset 20px 0 150px violet, inset -20px 0 150px blue,
+    0 0 50px #fff, -10px 0 60px violet, 10px 0 60px blue;
+  /* z-index: 99; */
+  left: 65%;
+  top: 30%;
+  border-radius: 50%;
+}
+/* .floating .alat_float:nth-child(3) {
+  position: fixed;
+  animation: spin 1.6s linear infinite;
+  margin: auto;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 60px violet,
+    inset -20px 0 60px blue, inset 20px 0 100px violet, inset -20px 0 100px blue,
+    0 0 50px #fff, -10px 0 60px violet, 10px 0 60px blue;
+  z-index: 99;
+  left: 80%;
+  top: 70%;
+  border-radius: 50%;
+} */
 
-@media screen and (max-width: 640px) {
+.alat_float img {
+  width: 100%;
+  height: 100%;
+  opacity: 70%;
+  margin: auto;
+}
+
+.alat_float img:hover {
+  animation-name: zoomInUp;
+}
+
+@keyframes zoomInUp {
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+/* .zoomInUp {
+  animation-name: zoomInUp;
+} */
+
+@keyframes spin {
+  0% {
+    top: 30%;
+  }
+  25% {
+    top: 31%;
+  }
+  50% {
+    top: 32%;
+  }
+  75% {
+    top: 31%;
+  }
+  100% {
+    /* transform: rotate(360deg); */
+    top: 30%;
+  }
+}
+
+@keyframes spin_mobile {
+  0% {
+    top: 10%;
+  }
+  25% {
+    top: 11%;
+  }
+  50% {
+    top: 12%;
+  }
+  75% {
+    top: 11%;
+  }
+  100% {
+    /* transform: rotate(360deg); */
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .floating .alat_float:nth-child(1) {
+    width: 80px;
+    animation-name: spin_mobile;
+    height: 80px;
+    /* z-index: 1; */
+    top: 10%;
+    left: 10%;
+  }
+
+  .floating .alat_float:nth-child(2) {
+    width: 80px;
+    animation-name: spin_mobile;
+    height: 80px;
+    /* z-index: 1; */
+    top: 10%;
+    left: 75%;
+  }
+  .kontak_form {
+    border-radius: 20px;
+    padding: 5px;
+    gap: 10px;
+    overflow: hidden;
+  }
   .kontak_form header h1 {
     font-size: 20px;
   }
@@ -148,10 +300,12 @@
   }
   .item input[type="text"],
   .item input[type="email"] {
-    padding: 12px 20px;
+    padding: 5px 10px;
+    width: 260px;
   }
 
   .msg textarea {
     width: 100%;
+    height: 100px;
   }
 }

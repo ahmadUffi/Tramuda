@@ -1,11 +1,22 @@
 import "./kontak.css";
-import Back from "./back/Back";
+import rebab from "../../assets/img/rebab/Rebab.png";
+import gendang from "../../assets/img/gendang/Gendang.png";
+// import Serunei from "../../assets/img/serunai/Serunai.png";
+// import Back from "./back/Back";
 
 const Kontak = () => {
   return (
-    <div className="kontak">
-      <div className="nav">
-        <Back />
+    <section className="kontak">
+      <div className="floating">
+        <div className="alat_float">
+          <img src={rebab} alt="test" />
+        </div>
+        <div className="alat_float">
+          <img src={gendang} alt="test" />
+        </div>
+        {/* <div className="alat_float">
+          <img src={Serunei} alt="test" />
+        </div> */}
       </div>
       <div className="form">
         <form action="" className="kontak_form">
@@ -17,27 +28,7 @@ const Kontak = () => {
           <div className="form_items">
             <div className="item_wrapper">
               <div className="item">
-                <label htmlFor="name">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
-                    style={{
-                      width: "12px",
-                      height: "12px",
-                      textAlign: "center",
-                    }}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
-                    />
-                  </svg>
-                  Name
-                </label>
+                <label htmlFor="name">Name</label>
                 <input type="text" required name="name" id="name" />
                 <label htmlFor="email">Email</label>
                 <input type="email" required name="email" id="email" />
@@ -61,7 +52,7 @@ const Kontak = () => {
           </div>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 
