@@ -67,7 +67,7 @@ video {
   font-weight: normal;
 }
 
-.button button:hover {
+/* .button button:hover {
   color: var(--white) !important;
   background-color: var(--black) !important;
 }
@@ -75,7 +75,7 @@ video {
 .button button:active {
   color: var(--white) !important;
   background-color: var(--secondary) !important;
-}
+} */
 
 @media screen and (max-width: 790px) {
   .description {
