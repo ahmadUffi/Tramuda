@@ -1,35 +1,35 @@
 import "./login.css";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
     <div className="login">
       <div className="loginContainer">
+        <div className="music">
+          <img src="./peoplemusic.png" />
+        </div>
         <h1>Selamat Berkunjung!</h1>
-
-        <div className="input-container">
-          <label>Username </label>
-          <input type="text" name="uname" />
+        <div class="align-left">
+          <p>Silakan Sign In terlebih dahulu</p>
         </div>
         <div className="input-container">
-          <label>Password </label>
-          <input type="password" name="pass" />
+          <input type="text" name="uname" placeholder="username" />
         </div>
+        <div className="input-container">
+          <input type="password" name="pass" placeholder="password" />
+        </div>
+        <Link to="/register">
+          <a href="#">Lupa Password?</a>
+        </Link>
+        <Link to="/register" className="linkDom">
+          <a href="#">Buat akun baru</a>
+        </Link>
 
-        <a href="#">Lupa Password?</a>
-        <a href="#">Buat akun baru</a>
-
-        <button className="loginBut">
-          <p>Login</p>
-        </button>
-
-        <button className="siG">
-          <img
-            src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
-            alt="Trees"
-            height="30"
-          />
-          <p>Sign in with Google</p>
-        </button>
+        <Link to="/">
+          <button className="loginBut">
+            <p>Login</p>
+          </button>
+        </Link>
       </div>
     </div>
   );

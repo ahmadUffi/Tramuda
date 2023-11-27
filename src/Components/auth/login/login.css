@@ -1,90 +1,97 @@
+* {
+  font-family: var(--poppins);
+}
 .login {
   display: flex;
   align-items: center;
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
-  background: linear-gradient(rgb(166, 159, 255), rgb(214, 214, 214));
+  background-image: url("batikbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.login h1 {
+  color: var(--white);
+}
+
+.align-left p {
+  text-align: left !important;
+  color: var(--white);
+  margin-bottom: 25px;
+}
+.music img {
+  width: 300px;
+  height: 250px;
+}
 .loginContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 25em;
-  height: 85vh;
-  background-color: rgb(255, 255, 255);
+  height: 95vh;
   border-radius: 25px;
+  justify-content: center;
+  background-color: var(--black);
 }
 .input-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin: 10px;
 }
 .input-container input {
-  height: 1.5em;
+  height: 2em;
   width: 15em;
   border-radius: 15px;
   border-width: 15px;
-  border: white;
-  box-shadow: 0 0 6px rgb(166, 159, 255);
+  border: var(--green);
+  box-shadow: 0 0 6px rgb(1, 1, 1);
   outline: none;
   padding: 10px;
   font-size: 20px;
+  background-color: var(--green);
+  color: var(--white);
 }
+
+.input-container input::placeholder {
+  color: var(--white);
+  font-size: 15px;
+}
+
 input:focus {
-  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset,
-    0 0 16px rgb(125, 115, 255);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 16px rgb(1, 1, 1);
   outline: 0 none;
 }
 a {
-  color: rgb(0, 68, 255);
   font-weight: 500;
   margin: 5px;
   cursor: pointer;
   align-self: baseline;
-  margin-left: 40px;
+  margin-left: 70px;
+  color: var(--white);
+  align-items: center;
+  justify-content: centers;
 }
 .loginBut {
-  height: 4em;
-  width: 24em;
+  height: 3em;
+  width: 12em;
   margin: 10px;
   margin-top: 25px;
+  margin-left: 40px;
   border-radius: 15px;
-  background: linear-gradient(rgb(124, 114, 255), rgb(255, 116, 116));
+  background: var(--green);
   border: none;
   transition: all 0.2s ease-in-out;
+  justify-content: center;
+  align-items: center;
 }
 .loginBut:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 12px rgb(199, 199, 199);
+  box-shadow: 0 0 12px rgb(1, 1, 1);
 }
 .loginBut p {
   color: white;
   font-size: 20px;
   margin-top: 13px;
-}
-.siG {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-  height: 4em;
-  width: 24em;
-  margin: 10px;
-  border-radius: 15px;
-  background-color: rgb(255, 255, 255);
-  border-color: rgb(152, 145, 255);
-  border-width: 3px;
-  border-style: dashed;
-  transition: all 0.2s ease-in-out;
-}
-.siG:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 12px rgb(199, 199, 199);
-  cursor: pointer;
-}
-.siG p {
-  font-size: 20px;
 }

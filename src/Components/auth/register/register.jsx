@@ -1,34 +1,43 @@
+import React from "react";
 import "./register.css";
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
     <div className="register">
       <div className="regisContainer">
+        <div className="music">
+          <img src="./peoplemusic.png" />
+        </div>
         <h1>Selamat Berkunjung!</h1>
 
         <div className="input-container">
-          <label>Email </label>
-          <input type="text" name="email" />
+          <input type="text" name="email" placeholder="email" />
         </div>
         <div className="input-container">
-          <label>Username </label>
-          <input type="text" name="uname" />
+          <input type="text" name="uname" placeholder="username" />
         </div>
         <div className="input-container">
-          <label>Password </label>
-          <input type="password" name="pass" />
+          <input type="password" name="pass" placeholder="password" />
         </div>
         <div className="input-container">
-          <label>Confirm Password </label>
-          <input type="password" name="pass" />
+          <input
+            type="password"
+            name="confirmpass"
+            placeholder="confirm password"
+          />
         </div>
-
-        <a href="#">Lupa Password?</a>
-        <a href="#">Buat akun baru</a>
-
-        <button className="regisBut">
-          <p>Login</p>
-        </button>
+        <Link to="/login">
+          <a href="#">Lupa Password?</a>
+        </Link>
+        <Link to="/login">
+          <a href="#">Buat akun baru</a>
+        </Link>
+        <Link to="/">
+          <button className="regisBut">
+            <p>Login</p>
+          </button>
+        </Link>
       </div>
     </div>
   );
