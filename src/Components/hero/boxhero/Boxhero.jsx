@@ -10,7 +10,7 @@ function Boxhero() {
         sebuah layanan pembalajaran digital yang berfokus pada memperkanalkan
         alat musik tradisonal yang ada di indonesia
       </p>
-      <Button action={"mari belajar"} />
+      <Button action={`mari belajar`} />
     </div>
   );
 }

@@ -1,13 +1,16 @@
 footer {
   height: 2.5rem;
   color: var(--green);
-  z-index: 100;
-  background-color: #000;
   letter-spacing: 0.6px;
   border-top: 1px solid rgba(85, 64, 49, 0.3);
-}
-
-.flex {
+  background-color: var(--black);
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  footer {
+    height: 1.2rem;
+  }
 }

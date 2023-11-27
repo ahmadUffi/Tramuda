@@ -2,12 +2,11 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar blur fixed">
-      <div className="nav-wrapper font-poppins full flex flex-row">
+    <nav className="navbar">
+      <div className="nav-wrapper">
         <div className="logo">
           <h1>Tramuda.com</h1>
         </div>
-        {/* Item */}
         <div className="items">
           <a href="" className="home">
             <svg
