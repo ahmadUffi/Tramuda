@@ -1,0 +1,31 @@
+.akun {
+  height: 100vh;
+  background-color: var(--black);
+  color: var(--white);
+  overflow: hidden;
+}
+
+.akun_wrapper {
+  background-color: var(--green);
+  height: 70vh;
+  width: 100%;
+}
+
+.akun_details {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-left: 1rem;
+}
+@media screen and (max-width: 720px) {
+  .akun {
+    height: 100%;
+  }
+  .akun_wrapper {
+    height: 80vh;
+  }
+  .akun_details {
+    gap: 0;
+    margin-left: 0;
+  }
+}
