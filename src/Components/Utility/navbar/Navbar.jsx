@@ -1,14 +1,27 @@
+import { useNavigate } from "react-router-dom";
 import "./navbar.css";
 
 function Navbar() {
+  const navigate = useNavigate();
+
+  function akunHandler() {
+    navigate("/akun");
+  }
+  function kontakHandler() {
+    navigate("/kontak");
+  }
+  function berandaHandler() {
+    navigate("/beranda");
+  }
+
   return (
     <nav className="navbar">
-      <div className="nav-wrapper">
+      <div className="nav-wrapper font-poppins full flex flex-row">
         <div className="logo">
           <h1>Tramuda.com</h1>
         </div>
         <div className="items">
-          <a href="" className="home">
+          <a onClick={berandaHandler}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -25,7 +38,7 @@ function Navbar() {
             </svg>
             <span className="item_name">home</span>
           </a>
-          <a href="" className="akun">
+          <a onClick={akunHandler}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -42,7 +55,7 @@ function Navbar() {
             </svg>
             <span className="item_name">akun</span>
           </a>
-          <a href="" className="kontak">
+          <a onClick={kontakHandler}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

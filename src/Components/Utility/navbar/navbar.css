@@ -9,15 +9,32 @@ nav {
   box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
-  z-index: 9999;
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .nav-wrapper {
   height: 3.7rem;
   background-color: var(--primary);
+}
+
+.fixed {
+  /* position: -webkit-sticky; */
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.full {
+  height: 100%;
+}
+
+.flex {
   display: flex;
   align-items: center;
 }
