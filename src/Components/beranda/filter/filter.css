@@ -1,34 +1,12 @@
 .filter {
   margin-bottom: 10px;
-}
-.form-control {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
-  width: 250px;
-}
-
-.form-control label {
-  color: var(--white);
-}
-
-.form-control select {
-  padding: 3px;
-  letter-spacing: 1px;
-}
-
-.form-control select option {
-  font-size: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 13px 50px;
 }
 
 .dropdown {
-  width: 200px;
-}
-
-.menu {
-  background-color: aqua;
-}
-
-.myControlClassName {
-  background-color: aquamarine;
+  width: 255px;
+  font-size: 15px;
 }

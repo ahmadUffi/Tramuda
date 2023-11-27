@@ -2,14 +2,13 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar fixed">
+    <nav className="navbar">
       <div className="nav-wrapper font-poppins full flex flex-row">
         <div className="logo">
           <h1>Tramuda.com</h1>
         </div>
-        {/* Item */}
         <div className="items">
-          <a href="#">
+          <a href="/beranda">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

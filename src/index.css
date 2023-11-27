@@ -4,7 +4,7 @@
   --primary: #29211d;
   --secondary: #554031;
   --green: #5c5947;
-  --black: rgb(1, 1, 1);
+  --black: rgb(2, 2, 2);
   /* font */
   --agbalumo: "Agbalumo", cursive;
   --poppins: "Poppins", sans-serif;
@@ -17,6 +17,10 @@
 body {
   background-color: var(--black);
   font-family: var(--poppins);
+}
+
+.linkDom {
+  text-decoration: none;
 }
 
 /* animasi */

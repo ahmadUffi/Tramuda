@@ -1,9 +1,10 @@
 .beranda {
   margin-top: 4rem;
-  padding: 20px;
 }
-
-.beranda .title {
+.beranda .berandaContainer {
+  padding: 18px;
+}
+.beranda .berandaContainer .title {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -11,8 +12,9 @@
   align-items: center;
 }
 
-.beranda .title h1,
-.beranda .title h1 span {
+.beranda .berandaContainer .title h1,
+.beranda .berandaContainer .title h1 span {
+  text-align: center;
   color: var(--white);
   font-size: 62px;
 }
@@ -26,4 +28,35 @@
 
 footer {
   margin-top: 10px;
+}
+
+/* breakpoints */
+
+@media screen and (max-width: 1120px) {
+  .beranda .berandaContainer .title h1,
+  .beranda .berandaContainer .title h1 span {
+    color: var(--white);
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .beranda .berandaContainer .title h1,
+  .beranda .berandaContainer .title h1 span {
+    color: var(--white);
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .beranda .berandaContainer .title h1,
+  .beranda .berandaContainer .title h1 span {
+    color: var(--white);
+    font-size: 18px;
+  }
+
+  .filter {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

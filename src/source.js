@@ -91,15 +91,15 @@ const items = [
     p2: "Cara memainkannya adalah dipukul seperti Drum pada umumnya. Secara penampilan alat musik ini mulai berubah juga, Tambua bisa dimainkan oleh 17 Orang bermain Tambua dan 1 Pemain Tansa.",
   },
 
-  {
-    id: 8,
-    img: Tifa,
-    nama: "Tifa",
-    memainkan: "Dipukul",
-    asal: "Papua",
-    p1: "Tifa memiliki akar sejarah yang panjang di budaya Papua. Alat musik ini bukan hanya sebuah instrumen musik, tetapi juga memiliki nilai budaya dan simbolisme yang dalam dalam kehidupan sehari-hari masyarakat Papua. Penggunaan Tifa seringkali terkait dengan upacara adat, pesta, pertunjukan seni, dan berbagai ritual keagamaan. Tifa terbuat dari batang kayu besar yang diukir dan dibentuk sedemikian rupa sehingga menghasilkan rongga silinder. Pada salah satu ujungnya ditutup dengan membran kulit binatang, biasanya menggunakan kulit hewan seperti kambing atau binatang lokal lainnya. Membran ini diikat dengan tali rotan atau tali dari bahan alami lainnya untuk membuatnya tegang. Sebuah pegangan biasanya dipasang di sisi lainnya, memungkinkan pemain untuk memegang dan memainkan Tifa dengan cara dipukul. Tifa dimainkan dengan cara dipukul menggunakan tangan atau batang kayu khusus. Pemain dapat menghasilkan berbagai suara dan ritme dengan cara memukul membran kulit pada ujung Tifa. Teknik pukulan yang berbeda dapat menghasilkan nada yang berbeda, menciptakan berbagai pola ritme yang menggambarkan keberagaman budaya dan seni musik Papua.",
-    p2: "Tifa memiliki peran penting dalam berbagai upacara adat Papua, seperti upacara penyambutan tamu, perayaan panen, dan ritual keagamaan. Suaranya yang khas sering digunakan untuk memimpin dan mengiringi tarian tradisional Papua, menambahkan nuansa yang meriah dan menghidupkan suasana di sekitarnya. Tifa memiliki nilai simbolis yang dalam dalam budaya Papua. Ini bukan hanya sebagai instrumen musik semata, tetapi juga sebagai simbol keberanian, persatuan, dan kehidupan masyarakat. Pemilihan bahan dan teknik pembuatan Tifa mencerminkan kearifan lokal dan hubungan erat masyarakat Papua dengan alam sekitarnya. ",
-  },
+  // {
+  //   id: 8,
+  //   img: Tifa,
+  //   nama: "Tifa",
+  //   memainkan: "Dipukul",
+  //   asal: "Papua",
+  //   p1: "Tifa memiliki akar sejarah yang panjang di budaya Papua. Alat musik ini bukan hanya sebuah instrumen musik, tetapi juga memiliki nilai budaya dan simbolisme yang dalam dalam kehidupan sehari-hari masyarakat Papua. Penggunaan Tifa seringkali terkait dengan upacara adat, pesta, pertunjukan seni, dan berbagai ritual keagamaan. Tifa terbuat dari batang kayu besar yang diukir dan dibentuk sedemikian rupa sehingga menghasilkan rongga silinder. Pada salah satu ujungnya ditutup dengan membran kulit binatang, biasanya menggunakan kulit hewan seperti kambing atau binatang lokal lainnya. Membran ini diikat dengan tali rotan atau tali dari bahan alami lainnya untuk membuatnya tegang. Sebuah pegangan biasanya dipasang di sisi lainnya, memungkinkan pemain untuk memegang dan memainkan Tifa dengan cara dipukul. Tifa dimainkan dengan cara dipukul menggunakan tangan atau batang kayu khusus. Pemain dapat menghasilkan berbagai suara dan ritme dengan cara memukul membran kulit pada ujung Tifa. Teknik pukulan yang berbeda dapat menghasilkan nada yang berbeda, menciptakan berbagai pola ritme yang menggambarkan keberagaman budaya dan seni musik Papua.",
+  //   p2: "Tifa memiliki peran penting dalam berbagai upacara adat Papua, seperti upacara penyambutan tamu, perayaan panen, dan ritual keagamaan. Suaranya yang khas sering digunakan untuk memimpin dan mengiringi tarian tradisional Papua, menambahkan nuansa yang meriah dan menghidupkan suasana di sekitarnya. Tifa memiliki nilai simbolis yang dalam dalam budaya Papua. Ini bukan hanya sebagai instrumen musik semata, tetapi juga sebagai simbol keberanian, persatuan, dan kehidupan masyarakat. Pemilihan bahan dan teknik pembuatan Tifa mencerminkan kearifan lokal dan hubungan erat masyarakat Papua dengan alam sekitarnya. ",
+  // },
 ];
 
 export default items;

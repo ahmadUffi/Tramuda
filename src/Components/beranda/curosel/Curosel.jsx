@@ -13,6 +13,7 @@ function Curosel() {
           asal={item.asal}
           paragraf={item.p1}
           delay={item.id}
+          allItem={item}
         />
       ))}
     </div>

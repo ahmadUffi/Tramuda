@@ -1,7 +1,8 @@
-import Button from "../../../Utility/button/Button";
+import { Link } from "react-router-dom";
+import ButtonFatch from "../../../Utility/button/ButtonFatch";
 import "./box.css";
 
-function Box({ delay, title, asal, gambar, paragraf }) {
+function Box({ delay, title, asal, gambar, paragraf, allItem }) {
   return (
     <div className="box">
       <div style={{ animationDelay: `calc(${delay}s)` }} className="container">
@@ -14,8 +15,10 @@ function Box({ delay, title, asal, gambar, paragraf }) {
               {title}-{asal}
             </h3>
           </div>
-          <p>{paragraf}</p>
-          <Button action="Details" />
+          <p className="boxParagraf">{paragraf}</p>
+          <Link to={`/beranda/${title}`} className="linkDom">
+            <ButtonFatch action="Details" valueContext={allItem} />
+          </Link>
         </div>
       </div>
     </div>

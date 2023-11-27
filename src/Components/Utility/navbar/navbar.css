@@ -1,19 +1,23 @@
 /* NavBar */
 nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
   overflow: hidden;
   font-family: var(--poppins);
-  height: 3.7rem;
   box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-nav a {
+a {
   color: white;
   text-decoration: none;
 }
 
-.blur {
+.nav-wrapper {
+  height: 3.7rem;
   background-color: var(--primary);
 }
 
@@ -23,7 +27,7 @@ nav a {
   right: 0;
   top: 0;
   left: 0;
-  /* z-index: 1000; */
+  z-index: 1000;
 }
 
 .full {
@@ -32,28 +36,24 @@ nav a {
 
 .flex {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
 }
 
-.flex-row {
+nav .nav-wrapper .items {
+  flex-grow: 3;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.font-poppins {
-  font-family: var(--poppins);
-}
-
-/* My Costumize */
 
 nav .nav-wrapper .items a {
   display: flex;
+  gap: 4px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-grow: 3;
+  []flex-direction: row;
   gap: 4px;
 }
 
@@ -61,16 +61,6 @@ nav .nav-wrapper .items a:hover {
   color: var(--secondary);
   transition: all 0.4s;
 }
-
-nav .nav-wrapper .items {
-  display: flex;
-  flex-grow: 3;
-  justify-content: space-evenly;
-  flex-direction: row;
-  gap: 2rem;
-}
-
-/* My Costumize */
 
 .logo {
   margin-left: 20px;
@@ -98,17 +88,6 @@ nav .nav-wrapper .items {
 .nav_svg {
   width: 1.5rem;
 }
-/* SVG */
-
-/* NavBar */
-
-/* Show text */
-/* nav .nav-wrapper .items .home:hover::after {
-  transition: all 0.5s;
-  transform: translateX(20);
-  content: "home";
-} */
-/* Show text */
 
 .item_name {
   text-transform: uppercase;
@@ -117,7 +96,7 @@ nav .nav-wrapper .items {
 
 /* BREAKPOINTS */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 790px) {
   .fixed {
     top: none;
     bottom: 0;
