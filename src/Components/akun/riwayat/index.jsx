@@ -24,7 +24,7 @@ const index = () => {
               </div>
               <p>
                 Gendang Yogyakarta digunakan dalam berbagai jenis seni
-                pertunjukan tradisional Jawa..
+                pertunjukan tradisional Jawa...
               </p>
 
               <Button action="Lihat Lagi" />
@@ -41,7 +41,7 @@ const index = () => {
               </div>
               <p>
                 Rebab tradisional Kalimantan, yang digunakan oleh suku Dayak,
-                adalah contoh lain dari rebab di Indonesia.
+                adalah contoh lain dari rebab di Indonesia...
               </p>
 
               <Button action="Lihat Lagi" />
@@ -59,7 +59,7 @@ const index = () => {
               <p>
                 Serunai berasal dari Pulau Sumatera, Indonesia. Ini adalah alat
                 musik tiup yang telah ada dalam budaya Sumatera selama
-                berabad-abad.
+                berabad-abad...
               </p>
 
               <Button action="Lihat Lagi" />
@@ -77,7 +77,7 @@ const index = () => {
               <p>
                 Siteran atau bisa juga disebut Siter adalah alat musik yang
                 berasal dari Jawa Barat, sebuah provinsi di pulau Jawa,
-                Indonesia.
+                Indonesia...
               </p>
 
               <Button action="Lihat Lagi" />

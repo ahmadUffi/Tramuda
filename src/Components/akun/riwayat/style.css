@@ -1,6 +1,5 @@
 .riwayat {
   /* border: 1px solid red; */
-  height: 50vh;
   width: 900px;
   overflow: hidden;
 }
@@ -75,7 +74,7 @@
 }
 @media screen and (max-width: 720px) {
   .riwayat {
-    /* height: 0vh; */
+    height: 0px;
     display: none;
   }
 }

@@ -3,7 +3,7 @@ import "./style.css";
 const index = () => {
   return (
     <header>
-      <h1>Profile</h1>
+      <div></div>
     </header>
   );
 };

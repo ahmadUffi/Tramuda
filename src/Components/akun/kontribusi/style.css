@@ -82,4 +82,14 @@
   .kontribusi .items {
     flex-direction: row;
   }
+
+  .kontribusi_btn {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .kontribusi_btn .btn {
+    width: 10rem;
+    font-size: 14px;
+  }
 }

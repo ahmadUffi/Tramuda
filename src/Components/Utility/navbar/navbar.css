@@ -1,6 +1,7 @@
 /* NavBar */
 nav {
   position: fixed;
+  padding: 3px;
   right: 0;
   top: 0;
   left: 0;
@@ -9,6 +10,9 @@ nav {
   box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px -3px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 3.7rem;
+  background-color: var(--primary);
+  z-index: 9999;
 }
 
 a {
@@ -17,8 +21,6 @@ a {
 }
 
 .nav-wrapper {
-  height: 3.7rem;
-  background-color: var(--primary);
 }
 
 .fixed {
@@ -52,9 +54,7 @@ nav .nav-wrapper .items a {
   color: white;
   text-decoration: none;
   display: flex;
-  flex-grow: 3;
-  []flex-direction: row;
-  gap: 4px;
+  flex-direction: row;
 }
 
 nav .nav-wrapper .items a:hover {
@@ -96,7 +96,7 @@ nav .nav-wrapper .items a:hover {
 
 /* BREAKPOINTS */
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 720px) {
   .fixed {
     top: none;
     bottom: 0;
@@ -107,10 +107,16 @@ nav .nav-wrapper .items a:hover {
 
   nav .nav-wrapper .items {
     display: flex;
-    flex-grow: 3;
-    justify-content: center;
     flex-direction: row;
-    gap: 1.5rem;
+    flex-grow: 2;
+  }
+
+  nav .nav-wrapper .items a .nav_svg {
+    width: 1.3rem;
+  }
+
+  .logo {
+    flex-grow: 2;
   }
 
   .logo h1 {
@@ -126,7 +132,26 @@ nav .nav-wrapper .items a:hover {
     );
     -webkit-background-clip: text;
     background-clip: text;
+    font-size: 18px;
   }
 }
 
+@media screen and (max-width: 420px) {
+  nav .nav-wrapper .items {
+    display: flex;
+    flex-grow: 2;
+  }
+
+  nav .nav-wrapper .items a {
+    margin-left: -10px;
+  }
+
+  nav .nav-wrapper .items a .nav_svg {
+    width: 1rem;
+  }
+
+  .logo {
+    flex-grow: 1;
+  }
+}
 /* BREAKPOINTS */

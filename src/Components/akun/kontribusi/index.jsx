@@ -1,7 +1,14 @@
 import "./style.css";
 import Button from "../../Utility/button/Button";
+import { useNavigate } from "react-router";
 
 const index = () => {
+  const navigate = useNavigate();
+
+  function lanjutHandler() {
+    navigate("/beranda");
+  }
+
   return (
     <div className="kontribusi">
       <div className="kontribusi_header">
@@ -43,8 +50,10 @@ const index = () => {
         </div>
       </div>
       <div className="kontribusi_btn">
-        <button className="btn">Lihat Alat Musik</button>
-        <button className="btn">Lihat Riwayat Musik</button>
+        <button className="btn" onClick={lanjutHandler}>
+          Lanjut Belajar
+        </button>
+        <button className="btn">History Belajar</button>
       </div>
     </div>
   );
