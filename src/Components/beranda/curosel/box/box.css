@@ -2,6 +2,13 @@
   width: 290px;
   height: 410px;
   color: var(--white);
+  animation: fadein 0.9s forwards;
+  border-right: 1px solid rgba(200, 199, 199, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-top: 17px;
+  opacity: 0;
+  /* box-shadow: 0 0 8px rgba(255, 255, 255, 0.1); */
 }
 
 .container {
@@ -13,8 +20,7 @@
   background-color: rgba(41, 33, 29, 0.4);
   z-index: 99;
   border-radius: 4px;
-  opacity: 0;
-  animation: fadein 0.9s forwards;
+  opacity: 1;
 }
 
 .container::before {

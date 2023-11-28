@@ -126,6 +126,7 @@ textarea {
   border-bottom: 2px solid var(--white);
   outline: none;
   resize: none;
+  color: var(--white);
 }
 
 .contact_form form .inputBox span {
@@ -137,6 +138,7 @@ textarea {
   pointer-events: none;
   transition: 0.5s;
   color: var(--white);
+  font-weight: normal;
 }
 
 .contact_form form .inputBox input:focus ~ span,

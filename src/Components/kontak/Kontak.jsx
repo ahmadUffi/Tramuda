@@ -1,9 +1,12 @@
 import "./kontak.css";
 import Button from "../Utility/button/Button";
+import Navbar from "../Utility/navbar/Navbar";
+import Footer from "../Utility/footer/Footer";
 
 const Kontak = () => {
   return (
     <section className="contact">
+      <Navbar />
       <div className="contact_header">
         <h1>Hubungi kami</h1>
         <span>
@@ -102,6 +105,7 @@ const Kontak = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </section>
   );
 };

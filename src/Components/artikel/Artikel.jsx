@@ -9,12 +9,14 @@ import Button from "../Utility/button/Button";
 import { Link } from "react-router-dom";
 import MySVGComponent from "../Utility/svg/MySVGComponent";
 import ThreeD from "../ThreeD/Threed";
+import Navbar from "../Utility/navbar/Navbar";
 
 function Artikel() {
   const { item } = useContext(ItemsContext);
 
   return (
     <div className="artikel">
+      <Navbar />
       <div className="artikelContainer">
         <div className="mainImg">
           <ThreeD threeD={item.threeD} />
@@ -54,6 +56,7 @@ function Artikel() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -4,10 +4,12 @@ import Footer from "../..//Components/Utility/footer/Footer";
 import Filter from "./filter/Filter";
 import Curosel from "./curosel/Curosel";
 import "./beranda.css";
+import Navbar from "../Utility/navbar/Navbar";
 
 function Beranda() {
   return (
     <div className="beranda">
+      <Navbar />
       <div className="berandaContainer">
         <div className="title">
           <Title title1="Aku Cinta Budaya Negeri Ku" />
@@ -18,6 +20,7 @@ function Beranda() {
         </div>
         <Curosel />
       </div>
+      <Footer />
     </div>
   );
 }

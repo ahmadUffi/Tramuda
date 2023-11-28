@@ -1,9 +1,12 @@
+import Footer from "../../Utility/footer/Footer";
+import Navbar from "../../Utility/navbar/Navbar";
 import "./login.css";
 import { Link } from "react-router-dom";
 
 function Login() {
   return (
     <div className="login">
+      <Navbar />
       <div className="loginContainer">
         <div className="music">
           <img src="./peoplemusic.png" />
@@ -31,6 +34,7 @@ function Login() {
           </button>
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }
