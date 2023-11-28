@@ -8,6 +8,7 @@ import gong from "../../assets/img/gong.png";
 import Button from "../Utility/button/Button";
 import { Link } from "react-router-dom";
 import MySVGComponent from "../Utility/svg/MySVGComponent";
+import ThreeD from "../ThreeD/Threed";
 
 function Artikel() {
   const { item } = useContext(ItemsContext);
@@ -16,7 +17,7 @@ function Artikel() {
     <div className="artikel">
       <div className="artikelContainer">
         <div className="mainImg">
-          <img src={item.img} alt={item.nama} />
+          <ThreeD threeD={item.threeD} />
         </div>
         <div className="shortDescription">
           <div className="nama item">

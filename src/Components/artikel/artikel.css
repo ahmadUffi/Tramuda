@@ -1,14 +1,5 @@
 .artikel {
-}
-
-.artikelContainer {
-}
-
-.artikelContainer .mainImg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 430px;
+  margin-top: 3.7rem;
 }
 
 .artikelContainer .mainImg img {
