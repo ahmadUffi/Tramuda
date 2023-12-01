@@ -3,7 +3,7 @@ import "./button.css";
 import { ItemsContext } from "../../../context/ItemContext";
 import { Link } from "react-router-dom";
 
-function ButtonFatch({ action }) {
+function Button({ action }) {
   return (
     <div className="button">
       <button> {action}</button>
@@ -11,4 +11,4 @@ function ButtonFatch({ action }) {
   );
 }
 
-export default ButtonFatch;
+export default Button;

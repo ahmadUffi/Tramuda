@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import MySVGComponent from "../Utility/svg/MySVGComponent";
 import ThreeD from "../ThreeD/Threed";
 import Navbar from "../Utility/navbar/Navbar";
+import HeartSVG from "./SvgHeart";
 
 function Artikel() {
   const { item } = useContext(ItemsContext);
@@ -48,11 +49,13 @@ function Artikel() {
           </div>
         </div>
         <div className="action">
-          <div className="save">{/* <MySVGComponent /> */}</div>
           <div className="kembali">
-            <Link to="/beranda" className="linkDom">
+            <Link to="/home" className="linkDom">
               <Button action="Kembali" />
             </Link>
+          </div>
+          <div className="save">
+            <HeartSVG nama={item.nama} />
           </div>
         </div>
       </div>

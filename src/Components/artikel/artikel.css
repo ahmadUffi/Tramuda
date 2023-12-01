@@ -57,12 +57,22 @@
 
 .longDescription .paragraf p {
   text-indent: 22px;
+  text-align: justify;
+}
+
+.longDescription .paragraf p:nth-child(2) {
+  margin-top: 20px;
 }
 
 .action {
   display: flex;
   height: 90px;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.action .save {
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 920px) {
@@ -78,10 +88,6 @@
   }
   .longDescription .secondImg img {
     width: 330px;
-  }
-
-  .longDescription .paragraf {
-    text-align: justify;
   }
 }
 

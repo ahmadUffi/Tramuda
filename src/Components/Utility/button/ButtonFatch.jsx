@@ -11,6 +11,7 @@ function ButtonFatch({ action, valueContext, navigateLink }) {
     changeItem(valueContext);
     navigate(`/beranda/${navigateLink}`);
   }
+  console.log(action);
   return (
     <div className="button">
       <button onClick={clikHandler}> {action}</button>

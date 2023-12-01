@@ -17,7 +17,7 @@ function Hero() {
           Tramuda merupakan Platform edukasi yang memperkenalakan <br /> alat
           musik tradisional yang ada di Indonesia
         </p>
-        <Link to="/beranda" className="linkDom">
+        <Link to="/home" className="linkDom">
           <Button action="Mulai Belajar" />
         </Link>
       </div>

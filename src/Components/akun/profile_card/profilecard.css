@@ -1,0 +1,90 @@
+.akun_box {
+  margin-top: 23px;
+}
+
+.akun_box .akun {
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.akun img {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+}
+
+.akun_box .akun .akun_description {
+  color: var(--white);
+  margin-top: 27px;
+}
+
+.akun_box .akun .akun_description h3 {
+  font-size: 30px;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+
+.akun_box .akun .akun_description h6 {
+  margin-top: -10px;
+  font-weight: normal;
+}
+
+.akun_box .akun .akun_description p {
+  margin-top: 13px;
+}
+
+.akun_box .akun .akun_description {
+  font-size: 14px;
+}
+
+.akun_box .akun .akun_description .button {
+  margin-top: 30px;
+}
+
+.akun_box .akun .akun_description button {
+  font-size: 14px;
+  padding: 1px 12px;
+}
+
+@media screen and (max-width: 790px) {
+  .akun_box .akun {
+    justify-content: flex-start;
+    margin-left: 23px;
+    height: 300px;
+  }
+
+  .akun_box .akun .akun_description h3 {
+    font-size: 22px;
+  }
+
+  .akun_box .akun .akun_description p {
+    font-size: 14px;
+  }
+  .akun img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .akun_box .akun {
+    height: 280px;
+  }
+  .akun_box .akun .akun_description h3 {
+    font-size: 16px;
+  }
+
+  .akun_box .akun .akun_description p {
+    font-size: 10px;
+  }
+
+  .akun img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}

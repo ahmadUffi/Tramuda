@@ -1,5 +1,5 @@
 footer {
-  height: 2.5rem;
+  height: 3.5rem;
   color: var(--green);
   letter-spacing: 0.6px;
   border-top: 1px solid rgba(85, 64, 49, 0.3);
@@ -7,6 +7,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 @media screen and (max-width: 420px) {

@@ -29,7 +29,6 @@ const items = [
     threeD: "ec7a536fe0284f9a8f6d39e058f71757",
     p1: "Rebab tradisional Kalimantan, yang digunakan oleh suku Dayak, adalah contoh lain dari rebab di Indonesia. Alat ini terbuat dari kayu dan memiliki dua senar. Rebab Dayak digunakan dalam berbagai upacara adat, termasuk upacara keagamaan dan pertunjukan tradisional, dan merupakan simbol penting dari warisan budaya Dayak yang kaya. Rebab Dayak sering terbuat dari kayu yang dipahat dengan indah untuk menciptakan bentuk yang khas. Bagian-bagian penting seperti kepala alat ini didekorasi dengan ukiran yang mencerminkan unsur-unsur alam dan kepercayaan suku Dayak.",
     p2: "Rebab ini biasanya memiliki dua senar utama yang terbuat dari benang halus yang ditenun atau dianyam dengan sangat teliti. Senar-senar ini diatur sedemikian rupa untuk menghasilkan melodi yang dalam dan penuh perasaan. Rebab Dayak memiliki peran penting dalam berbagai upacara adat dan pertunjukan tradisional suku Dayak. Alat ini sering digunakan dalam upacara adat seperti pesta panen, upacara pernikahan, dan upacara keagamaan. Di samping itu, rebab Dayak juga menjadi pengiring dalam tarian dan pertunjukan seni tradisional Dayak.",
-    p3: "Rebab Dayak bukan hanya sebuah alat musik; alat ini juga memiliki makna dan simbolisme dalam budaya Dayak. Dalam beberapa konteks, alat ini dianggap sebagai sarana komunikasi dengan roh leluhur dan alam semesta. Ukiran-ukiran pada rebab sering menggambarkan binatang, tanaman, dan simbol-simbol kepercayaan Dayak yang melambangkan hubungan dengan alam dan dunia gaib.",
   },
 
   {
