@@ -6,7 +6,6 @@ import Footer from "../Utility/footer/Footer";
 import items from "../../source.js";
 import Riwayat from "./riwayat/Riwayat.jsx";
 import Button from "../Utility/button/Button.jsx";
-import Tilt from "react-parallax-tilt";
 import { useState } from "react";
 
 function Akun() {
@@ -25,9 +24,7 @@ function Akun() {
       </div>
       <div className="riwayat">
         <div className="btnRiwayat" onClick={activeHandler}>
-          <Tilt className="tilt">
-            <Button action="Alat Musik Favorit" />
-          </Tilt>
+          <Button action="Alat Musik Favorit" />
         </div>
         <hr className="hr" />
         <div

@@ -10,10 +10,14 @@
   gap: 30px;
 }
 
-.akun img {
+.akun > img {
   width: 165px;
   height: 165px;
   border-radius: 50%;
+  transform-style: preserve-3d;
+  opacity: 0;
+  transform: rotateY(0) translateX(100px);
+  animation: 1s rotate forwards ease;
 }
 
 .akun_box .akun .akun_description {
@@ -25,15 +29,22 @@
   font-size: 30px;
   margin-bottom: 7px;
   text-transform: capitalize;
+  animation: 1s fadeRight forwards ease-out;
 }
 
 .akun_box .akun .akun_description h6 {
   margin-top: -10px;
   font-weight: normal;
+  animation: 0.4s shortFadein forwards ease;
+  animation-delay: 1.1s;
+  opacity: 0;
 }
 
 .akun_box .akun .akun_description p {
   margin-top: 13px;
+  animation: 0.4s shortFadein forwards ease;
+  animation-delay: 1.4s;
+  opacity: 0;
 }
 
 .akun_box .akun .akun_description {
@@ -47,6 +58,9 @@
 .akun_box .akun .akun_description button {
   font-size: 14px;
   padding: 1px 12px;
+  animation: 0.4s shortFadein forwards ease;
+  animation-delay: 1.7s;
+  opacity: 0;
 }
 
 @media screen and (max-width: 790px) {

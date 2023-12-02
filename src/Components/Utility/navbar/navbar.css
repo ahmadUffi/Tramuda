@@ -1,9 +1,9 @@
 .navbar {
   background-color: var(--primary);
   position: fixed;
+  width: 100vw;
   top: 0;
   left: 0;
-  right: 0;
   z-index: 9999;
 }
 
@@ -30,6 +30,8 @@
 
 .nav-wrapper .logo {
   margin-left: 25px;
+  display: grid;
+  place-items: center;
 }
 
 .nav-wrapper .logo h1 {
@@ -90,6 +92,7 @@
   .navbar .nav-wrapper .items.active {
     position: absolute;
     background-color: rgba(1, 2, 2, 0.9);
+    display: flex;
     flex-direction: column;
     align-items: center;
     right: 0;

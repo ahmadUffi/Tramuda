@@ -1,9 +1,10 @@
 import "./riwayat.css";
+import Tilt from "react-parallax-tilt";
 import ButtonFatch from "../../Utility/button/ButtonFatch";
 
 function Riwayat({ gambar, title, asal, paragraf, allItem, delay }) {
   return (
-    <div>
+    <Tilt glareEnable={true} glareMaxOpacity={0.1}>
       <div className="boxRiwayat">
         <div
           className="containerRiwayat"
@@ -27,7 +28,7 @@ function Riwayat({ gambar, title, asal, paragraf, allItem, delay }) {
           </div>
         </div>
       </div>
-    </div>
+    </Tilt>
   );
 }
 

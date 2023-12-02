@@ -1,40 +1,39 @@
-import Footer from "../../Utility/footer/Footer";
-import Navbar from "../../Utility/navbar/Navbar";
+import Button from "../../Utility/button/Button";
+import icon from "../../../assets/img/login/icon.png";
 import "./login.css";
 import { Link } from "react-router-dom";
 
 function Login() {
   return (
     <div className="login">
-      <Navbar />
       <div className="loginContainer">
-        <div className="music">
-          <img src="./peoplemusic.png" />
+        <div className="icon">
+          <img src={icon} alt="" />
         </div>
         <h1>Selamat Berkunjung!</h1>
-        <div class="align-left">
+        <div>
           <p>Silakan Sign In terlebih dahulu</p>
         </div>
         <div className="input-container">
-          <input type="text" name="uname" placeholder="username" />
+          <label htmlFor="username">Username :</label>
+          <input type="text" name="uname" placeholder="Username" />
         </div>
         <div className="input-container">
-          <input type="password" name="pass" placeholder="password" />
+          <label htmlFor="Password">Password :</label>
+          <input type="password" name="pass" placeholder="Password" />
         </div>
-        <Link to="/register">
-          <a href="#">Lupa Password?</a>
-        </Link>
-        <Link to="/register" className="linkDom">
-          <a href="#">Buat akun baru</a>
-        </Link>
-
-        <Link to="/">
-          <button className="loginBut">
-            <p>Login</p>
-          </button>
+        <div className="fiturLain">
+          <Link to="/register" className="linkDom">
+            <p href="#">Lupa Password</p>
+          </Link>
+          <Link to="/register" className="linkDom">
+            <p href="#">Buat akun baru</p>
+          </Link>
+        </div>
+        <Link to="/akun" className="linkDom">
+          <Button action="login" />
         </Link>
       </div>
-      <Footer />
     </div>
   );
 }

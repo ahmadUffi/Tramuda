@@ -113,4 +113,8 @@
   .shortDescription .icon {
     width: 52px;
   }
+
+  .action {
+    gap: 30px;
+  }
 }

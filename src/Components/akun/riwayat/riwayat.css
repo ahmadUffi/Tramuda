@@ -5,7 +5,7 @@
 } */
 
 .containerRiwayat {
-  animation: fadeLeft 0.9s forwards;
+  animation: fadeLeft 0.9s forwards ease;
   width: 240px;
   height: 100%;
   position: relative;

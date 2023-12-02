@@ -10,6 +10,7 @@ function ButtonFatch({ action, valueContext, navigateLink }) {
   function clikHandler() {
     changeItem(valueContext);
     navigate(`/beranda/${navigateLink}`);
+    window.scrollTo(top);
   }
   console.log(action);
   return (
