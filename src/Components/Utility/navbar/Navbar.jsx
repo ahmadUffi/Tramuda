@@ -1,8 +1,10 @@
 import { NavLink, Link } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 import "./navbar.css";
 import Button from "../button/Button";
 import Tilt from "react-parallax-tilt";
 import { useState } from "react";
+import Login from "../../auth/login/login";
 
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
@@ -14,6 +16,14 @@ function Navbar() {
   function scrollTop() {
     window.scrollTo(top);
   }
+
+  const [isLogin, setIsLogin] = useState(false);
+  // const navigate = useNavigate();
+
+  function renderLogin() {
+    setIsLogin(!isLogin);
+  }
+
   return (
     <nav className="navbar">
       <div className="nav-wrapper">
@@ -88,12 +98,13 @@ function Navbar() {
             </NavLink>
           </div>
           <Tilt>
-            <div className="loginBtn item">
-              <Button action="LOGIN" />
+            <div className="loginBtn item" onClick={renderLogin}>
+              <button className="button">Login</button>
             </div>
           </Tilt>
         </div>
       </div>
+      {isLogin && <Login renderLogin={renderLogin} />}
     </nav>
   );
 }

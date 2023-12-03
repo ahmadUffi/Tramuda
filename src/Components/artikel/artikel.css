@@ -72,7 +72,7 @@
   padding: 0 100px;
 }
 .action .save {
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 @media screen and (max-width: 920px) {
@@ -83,7 +83,6 @@
   .longDescription {
     margin-top: 20px;
     flex-wrap: wrap;
-
     justify-content: center;
   }
   .longDescription .secondImg img {

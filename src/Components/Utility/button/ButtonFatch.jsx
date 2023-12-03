@@ -12,7 +12,6 @@ function ButtonFatch({ action, valueContext, navigateLink }) {
     navigate(`/beranda/${navigateLink}`);
     window.scrollTo(top);
   }
-  console.log(action);
   return (
     <div className="button">
       <button onClick={clikHandler}> {action}</button>
