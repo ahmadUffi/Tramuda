@@ -11,6 +11,8 @@ import Tifa from "./assets/img/tifa/Tifa.png";
 const items = [
   {
     id: 0,
+    prestasi:
+      "Dalam skala Nasional, Penggunaan gendang digunakan di berbagai kesenian tradisional, termasuk dalam tari-tarian dan upacara adat Jawa.",
     img: Gendang,
     nama: "Gendang",
     memainkan: "Dipukul",
@@ -22,6 +24,8 @@ const items = [
 
   {
     id: 1,
+    prestasi:
+      "Dalam skala Nasional, Peran rebab dalam musik tradisional Indonesia, terutama dalam menyertai pertunjukan wayang kulit dan tarian.",
     img: Rebab,
     nama: "Rebab",
     memainkan: "Digesek",
@@ -34,6 +38,8 @@ const items = [
 
   {
     id: 2,
+    prestasi:
+      "Dalam skala Nasional, Penggunaan serunai dalam pertunjukan wayang kulit dan tarian tradisional, serta keikutsertaannya dalam berbagai festival seni di seluruh Indonesia.",
     img: Serunai,
     nama: "Serunai",
     memainkan: "Ditiup",
@@ -45,6 +51,8 @@ const items = [
 
   {
     id: 3,
+    prestasi:
+      "Dalam skala Nasional, Pemakaian siter digunakan dalam pertunjukan seni tradisional Jawa.",
     img: Siter,
     nama: "Siter",
     memainkan: "Dipetik",
@@ -56,6 +64,8 @@ const items = [
 
   {
     id: 4,
+    prestasi:
+      "Secara Internasional, mendapatkan Pengakuan sebagai Warisan Kemanusiaan Nonbendawi oleh UNESCO pada tahun 2010.",
     img: Angklung_Jawa,
     nama: "Angklung Jawa",
     memainkan: "Digoyang",
@@ -79,6 +89,8 @@ const items = [
 
   {
     id: 6,
+    prestasi:
+      "Dalam skala Nasional, Penggunaan gandrang bulo dalam upacara adat suku Tana Toraja di Sulawesi Selatan.",
     img: Gandrang_Bulo,
     nama: "Gandrang Bulo",
     memainkan: "Ditabuh dengan pemukul",
@@ -90,6 +102,7 @@ const items = [
 
   {
     id: 7,
+    prestasi: "Belum ada catatan Informasi saat ini.",
     img: Tambua,
     nama: "Tambua",
     memainkan: "Ditabuh dengan pemukul",
@@ -101,6 +114,8 @@ const items = [
 
   {
     id: 8,
+    prestasi:
+      "Dalam skala Nasional, Tifa sangat bernilai dalam Keikutsertaan di festival budaya di Papua dan Maluku. Mungkin juga telah menjadi bagian dari penampilan kelompok seni Indonesia dalam festival internasional.",
     img: Tifa,
     nama: "Tifa",
     memainkan: "Dipukul",
