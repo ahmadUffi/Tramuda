@@ -159,6 +159,10 @@ textarea {
   right: 0;
 }
 
+.contact_form form .form-group .form-control {
+  width: 220px;
+}
+
 @media screen and (min-width: 720px) {
 }
 
@@ -178,7 +182,7 @@ textarea {
   }
 
   .contact_form form .form-group .form-control {
-    width: 320px;
+    width: 220px;
   }
 }
 @media screen and (max-width: 360px) {
