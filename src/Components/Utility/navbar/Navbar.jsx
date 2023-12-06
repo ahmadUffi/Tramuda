@@ -29,7 +29,7 @@ function Navbar() {
       <div className="nav-wrapper">
         <div className="logo">
           <NavLink to="/" style={{ textDecoration: "none" }}>
-            <h1>Tramuda.com</h1>
+            <h1>Tramuda</h1>
           </NavLink>
         </div>
         <div className="burger" onClick={isActiveHandler}>

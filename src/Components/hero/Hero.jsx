@@ -14,8 +14,8 @@ function Hero() {
           Mari Eksplorasi Alat Musik <span> Tradisional Indonesia</span>
         </h2>
         <p>
-          Tramuda merupakan Platform edukasi yang memperkenalakan <br /> alat
-          musik tradisional yang ada di Indonesia
+          Tradisional Musik Daerah (Tramuda) merupakan Platform edukasi yang
+          memperkenalakan <br /> alat musik tradisional yang ada di Indonesia
         </p>
         <Link to="/home" className="linkDom">
           <Button action="Mulai Belajar" />

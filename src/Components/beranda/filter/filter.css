@@ -9,4 +9,5 @@
 .dropdown {
   width: 255px;
   font-size: 15px;
+  text-transform: capitalize;
 }

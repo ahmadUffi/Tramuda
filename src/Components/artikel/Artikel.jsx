@@ -37,7 +37,7 @@ function Artikel() {
           </div>
           <div className="mainkan item">
             <img src={musik} alt="icon" className="icon" />
-            <h6>Cara Memainakan</h6>
+            <h6>Cara Memainkanya</h6>
             <p>{item.memainkan}</p>
           </div>
           <div className="asal item">
