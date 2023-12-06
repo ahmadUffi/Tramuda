@@ -1,7 +1,6 @@
 import React from "react";
 
-function ThreeD({ threeD }) {
-  console.log(threeD);
+function YourComponent({ threeD }) {
   return (
     <div className="sketchfab-embed-wrapper">
       <iframe
@@ -11,10 +10,10 @@ function ThreeD({ threeD }) {
         mozallowfullscreen="true"
         webkitallowfullscreen="true"
         allow="autoplay; fullscreen; xr-spatial-tracking"
-        xr-spatial-tracking
-        execution-while-out-of-viewport
-        execution-while-not-rendered
-        web-share
+        xr-spatial-tracking=""
+        execution-while-out-of-viewport=""
+        execution-while-not-rendered=""
+        web-share=""
         width="100%"
         height="420"
         src={`https://sketchfab.com/models/${threeD}/embed?autospin=1&autostart=1&ui_theme=dark`}
@@ -23,4 +22,4 @@ function ThreeD({ threeD }) {
   );
 }
 
-export default ThreeD;
+export default YourComponent;

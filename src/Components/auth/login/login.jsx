@@ -1,7 +1,7 @@
 import icon from "../../../assets/img/login/icon.png";
+import Modal from "../../Utility/modal/Modal";
 import "./login.css";
 import { Link } from "react-router-dom";
-import Modal from "./modal/Modal";
 
 function Login({ renderLogin }) {
   return (

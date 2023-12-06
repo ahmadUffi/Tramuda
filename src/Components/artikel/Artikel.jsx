@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { ItemsContext } from "../../context/ItemContext";
 import Footer from "../Utility/footer/Footer";
 import "./artikel.css";
@@ -10,9 +10,17 @@ import { Link } from "react-router-dom";
 import ThreeD from "../ThreeD/Threed";
 import Navbar from "../Utility/navbar/Navbar";
 import HeartSVG from "./SvgHeart";
+import Modal from "../Utility/modal/Modal";
+import Iframe from "./Iframe";
 
 function Artikel() {
   const { item } = useContext(ItemsContext);
+
+  const [isIframe, setIsIframe] = useState(false);
+
+  function iframeHandler() {
+    setIsIframe((prev) => !prev);
+  }
 
   return (
     <div className="artikel">
@@ -39,7 +47,7 @@ function Artikel() {
           </div>
         </div>
         <div className="longDescription">
-          <div className="secondImg">
+          <div className="secondImg" onClick={iframeHandler}>
             <img src={item.img} alt="" />
           </div>
           <div className="paragraf">
@@ -58,6 +66,7 @@ function Artikel() {
           </div>
         </div>
       </div>
+      {isIframe && <Iframe iframe={item.embade} />}
       <Footer />
     </div>
   );
