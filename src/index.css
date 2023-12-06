@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   /* variabel warna */
   --white: #fafafa;
@@ -8,15 +10,21 @@
   /* font */
   --agbalumo: "Agbalumo", cursive;
   --poppins: "Poppins", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--black);
   font-family: var(--poppins);
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .linkDom {
@@ -27,12 +35,57 @@ body {
 
 @keyframes fadein {
   from {
-    transform: translateX(-90px);
+    transform: translateY(-60px);
     opacity: 0;
   }
 
   to {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeRight {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes shortFadein {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  from {
+    opacity: 0;
+    transform: translateX(100px) rotateY(0);
+  }
+  to {
+    transform: translateX(0) rotateY(360deg);
     opacity: 1;
   }
 }

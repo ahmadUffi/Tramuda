@@ -2,19 +2,21 @@ import { useContext } from "react";
 import { ItemsContext } from "../../context/ItemContext";
 import Footer from "../Utility/footer/Footer";
 import "./artikel.css";
-import music from "../../assets/img/music.png";
-import house from "../../assets/img/house.png";
-import gong from "../../assets/img/gong.png";
+import musik from "../../assets/img/artikel/musik.png";
+import house from "../../assets/img/artikel/asal.png";
+import gong from "../../assets/img/artikel/gong.png";
 import Button from "../Utility/button/Button";
 import { Link } from "react-router-dom";
-import MySVGComponent from "../Utility/svg/MySVGComponent";
 import ThreeD from "../ThreeD/Threed";
+import Navbar from "../Utility/navbar/Navbar";
+import HeartSVG from "./SvgHeart";
 
 function Artikel() {
   const { item } = useContext(ItemsContext);
 
   return (
     <div className="artikel">
+      <Navbar />
       <div className="artikelContainer">
         <div className="mainImg">
           <ThreeD threeD={item.threeD} />
@@ -26,7 +28,7 @@ function Artikel() {
             <p>{item.nama}</p>
           </div>
           <div className="mainkan item">
-            <img src={music} alt="icon" className="icon" />
+            <img src={musik} alt="icon" className="icon" />
             <h6>Cara Memainakan</h6>
             <p>{item.memainkan}</p>
           </div>
@@ -46,14 +48,17 @@ function Artikel() {
           </div>
         </div>
         <div className="action">
-          <div className="save">{/* <MySVGComponent /> */}</div>
           <div className="kembali">
-            <Link to="/beranda" className="linkDom">
+            <Link to="/home" className="linkDom">
               <Button action="Kembali" />
             </Link>
           </div>
+          <div className="save">
+            <HeartSVG nama={item.nama} />
+          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

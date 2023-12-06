@@ -1,97 +1,105 @@
-* {
-  font-family: var(--poppins);
-}
 .login {
   display: flex;
   align-items: center;
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
-  background-image: url("batikbg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.login .loginContainer .icon img {
+  width: 270px;
+}
+
 .login h1 {
-  color: var(--white);
+  color: var(--black);
+  font-size: 24px;
 }
 
 .align-left p {
   text-align: left !important;
-  color: var(--white);
+  color: var(--black);
   margin-bottom: 25px;
+  font-size: 14px;
 }
-.music img {
-  width: 300px;
-  height: 250px;
-}
+
 .loginContainer {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
-  width: 25em;
-  height: 80vh;
-  border-radius: 25px;
   justify-content: center;
-  background-color: var(--black);
+  width: 360px;
+  height: 490px;
+  border-radius: 25px;
+  background-color: var(--white);
+  gap: 5px;
 }
 .input-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 17px;
+  gap: 7px;
+}
+
+.input-container label {
+  font-size: 14px;
+  color: var(--black);
 }
 .input-container input {
-  height: 2em;
-  width: 15em;
+  width: 300px;
+  height: 35px;
   border-radius: 15px;
   border-width: 15px;
   border: var(--green);
   box-shadow: 0 0 6px rgb(1, 1, 1);
   outline: none;
   padding: 10px;
-  font-size: 20px;
-  background-color: var(--green);
-  color: var(--white);
+  font-size: 14px;
+  color: var(--black);
 }
 
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--black);
+  font-weight: bold;
+  background-color: rgba(77, 76, 76, 0.2);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
 .input-container input::placeholder {
-  color: var(--white);
-  font-size: 15px;
+  color: var(--black);
+  font-size: 12px;
 }
 
 input:focus {
   box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 16px rgb(1, 1, 1);
   outline: 0 none;
 }
-a {
-  font-weight: 500;
-  margin: 5px;
-  cursor: pointer;
-  align-self: baseline;
-  margin-left: 70px;
+
+.login .loginContainer .fiturLain {
+  display: flex;
+  gap: 30px;
+}
+
+.login .loginContainer .fiturLain p {
+  font-size: 12px;
+  color: var(--black);
+}
+
+.login .loginContainer .akunBtn .button {
+  background-color: var(--primary);
   color: var(--white);
-  align-items: center;
-  justify-content: centers;
-}
-.loginBut {
-  height: 3em;
-  width: 12em;
-  margin: 10px;
-  margin-top: 25px;
-  margin-left: 40px;
-  border-radius: 15px;
-  background: var(--green);
-  border: none;
-  transition: all 0.2s ease-in-out;
-  justify-content: center;
-  align-items: center;
-}
-.loginBut:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 12px rgb(1, 1, 1);
-}
-.loginBut p {
-  color: white;
-  font-size: 20px;
-  margin-top: 13px;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  letter-spacing: 2px;
 }

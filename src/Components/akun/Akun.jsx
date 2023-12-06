@@ -1,21 +1,49 @@
 import "./akun.css";
-import ProfileCard from "./profile_card";
-import Header from "./header";
+import ProfileCard from "./profile_card/Profilecard.jsx";
 import Kontribusi from "./kontribusi";
-import Riwayat from "./riwayat";
+import Navbar from "../Utility/navbar/Navbar";
+import Footer from "../Utility/footer/Footer";
+import items from "../../source.js";
+import Riwayat from "./riwayat/Riwayat.jsx";
+import Button from "../Utility/button/Button.jsx";
+import { useState } from "react";
 
 function Akun() {
+  const riwatItems = items.slice(0, 3);
+
+  const [isActive, setIsActive] = useState(false);
+
+  function activeHandler() {
+    setIsActive((prev) => !prev);
+  }
   return (
     <section className="akun">
-      <Header />
+      <Navbar />
       <div className="akun_wrapper">
         <ProfileCard />
-
-        <div className="akun_details">
-          <Kontribusi />
-          <Riwayat />
+      </div>
+      <div className="riwayat">
+        <div className="btnRiwayat" onClick={activeHandler}>
+          <Button action="Alat Musik Favorit" />
+        </div>
+        <hr className="hr" />
+        <div
+          className={isActive == false ? "boxCard pending" : "boxCard active"}
+        >
+          {riwatItems.map((riwayat) => (
+            <Riwayat
+              key={riwayat.id}
+              gambar={riwayat.img}
+              title={riwayat.nama}
+              asal={riwayat.asal}
+              paragraf={riwayat.p1}
+              allItem={riwayat}
+              delay={riwayat.id}
+            />
+          ))}
         </div>
       </div>
+      <Footer />
     </section>
   );
 }

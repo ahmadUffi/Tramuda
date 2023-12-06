@@ -1,18 +1,20 @@
-import { Link } from "react-router-dom";
-import ButtonFatch from "../../../Utility/button/ButtonFatch";
+import "./riwayat.css";
 import Tilt from "react-parallax-tilt";
-import "./box.css";
+import ButtonFatch from "../../Utility/button/ButtonFatch";
 
-function Box({ title, asal, gambar, paragraf, allItem }) {
+function Riwayat({ gambar, title, asal, paragraf, allItem, delay }) {
   return (
-    <Tilt glareEnable={true} glareMaxOpacity={0.2}>
-      <div className="box">
-        <div className="container">
+    <Tilt glareEnable={true} glareMaxOpacity={0.1}>
+      <div className="boxRiwayat">
+        <div
+          className="containerRiwayat"
+          style={{ animationDelay: `${delay}s` }}
+        >
           <div className="img">
             <img src={gambar} alt={title} />
           </div>
-          <div className="deskripsi">
-            <div className="title">
+          <div className="deskripsiRiwayat">
+            <div className="titleRiwayat">
               <h3>
                 {title}-{asal}
               </h3>
@@ -30,4 +32,4 @@ function Box({ title, asal, gambar, paragraf, allItem }) {
   );
 }
 
-export default Box;
+export default Riwayat;
