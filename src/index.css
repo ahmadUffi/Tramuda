@@ -89,3 +89,13 @@ body::-webkit-scrollbar {
     opacity: 1;
   }
 }
+
+@keyframes opacity {
+  from {
+    opacity: o;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -8,7 +8,7 @@ import Navbar from "./Components/Utility/navbar/Navbar";
 import Footer from "./Components/Utility/footer/Footer";
 
 import { useState } from "react";
-import Login from "./Components/auth/login/login";
+import Login from "./Components/auth/login/Login";
 
 function App() {
   return (

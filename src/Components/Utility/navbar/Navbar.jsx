@@ -4,7 +4,7 @@ import "./navbar.css";
 import Button from "../button/Button";
 import Tilt from "react-parallax-tilt";
 import { useState } from "react";
-import Login from "../../auth/login/login";
+import Login from "../../auth/login/Login";
 
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
