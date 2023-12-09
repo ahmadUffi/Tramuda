@@ -16,6 +16,4 @@ button {
   text-transform: capitalize;
   letter-spacing: 1px;
   cursor: pointer;
-  position: relative;
-  overflow: hidden;
 }

@@ -4,8 +4,6 @@ import Akun from "./Components/akun/Akun";
 import Kontak from "./Components/kontak/Kontak";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Artikel from "./Components/artikel/Artikel";
-import Navbar from "./Components/Utility/navbar/Navbar";
-import Footer from "./Components/Utility/footer/Footer";
 
 import { useState } from "react";
 import Login from "./Components/auth/login/Login";
