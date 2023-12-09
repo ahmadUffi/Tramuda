@@ -7,6 +7,7 @@ function ThreeD({ threeD }) {
       <iframe
         title="Tifa"
         frameBorder="0"
+        allowFullScreen
         mozallowfullscreen="true"
         webkitallowfullscreen="true"
         allow="autoplay; fullscreen; xr-spatial-tracking"
