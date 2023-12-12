@@ -11,10 +11,51 @@ import Tifa from "./assets/img/tifa/Tifa.png";
 const items = [
   {
     id: 0,
-    iframe: "https://www.youtube.com/embed/NSkOWUaIbO0?si=lqJb1aRLMQp1NO8_",
-    iframe_2: "https://www.youtube.com/embed/N-6agJmUh7A?si=R7-Co8UBzscrDnsY",
-    iframe_3: "https://www.youtube.com/embed/xDoOtTxMzlQ?si=3h0we0EJ6bqadNmt",
-    iframe_4: "https://www.youtube.com/embed/53g21AJzrj4?si=eATcmPLJVaJ0YOZg",
+    iframe: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ARc1aHnwsYc?si=AAjUDuLpgiKfFU4t"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/N-6agJmUh7A?si=fH-wCzWCxOyZArnj"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_3: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xDoOtTxMzlQ?si=_BUa7mhVYdlKaDBy"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_4: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/53g21AJzrj4?si=Vcun1rlbxVgrw-4M"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
     prestasi:
       "Dalam skala Nasional, Penggunaan gendang digunakan di berbagai kesenian tradisional, termasuk dalam tari-tarian dan upacara adat Jawa.",
     img: Gendang,
@@ -28,10 +69,50 @@ const items = [
 
   {
     id: 1,
-    iframe: "https://www.youtube.com/embed/tucUL78LjNs?si=FRYxHvIc-25xt5ph",
-    iframe_2: "https://www.youtube.com/embed/YwzItDjvr-o?si=nLch1AXxWP56NaaE",
-    iframe_3: "https://www.youtube.com/embed/8yfp3x4q_OQ?si=8uyoLkOrKv7WF3Fy",
-    iframe_4: "https://www.youtube.com/embed/oKTb3OAw334?si=vIySpLidvzNBBJSc",
+    iframe: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/tucUL78LjNs?si=lD0IyEB7jf6F08TX"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/YwzItDjvr-o?si=nLch1AXxWP56NaaE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_3: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8yfp3x4q_OQ?si=8uyoLkOrKv7WF3Fy"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_4: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/oKTb3OAw334?si=vIySpLidvzNBBJSc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
     prestasi:
       "Dalam skala Nasional, Peran rebab dalam musik tradisional Indonesia, terutama dalam menyertai pertunjukan wayang kulit dan tarian.",
     img: Rebab,
@@ -45,10 +126,50 @@ const items = [
 
   {
     id: 2,
-    iframe: "https://www.youtube.com/embed/GUyhqN-j9sM?si=40YDPZ11rjBqAvxW",
-    iframe_2: "https://www.youtube.com/embed/mRPIAIiJBhg?si=H-UUG1Hc3DZT5m65",
-    iframe_3: "https://www.youtube.com/embed/3aB3gBTnCdU?si=BycRUyZlLd0Z4a3s",
-    iframe_4: "https://www.youtube.com/embed/GUyhqN-j9sM?si=TQn6jsNGmYHdpk_6",
+    iframe: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GUyhqN-j9sM?si=40YDPZ11rjBqAvxW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/mRPIAIiJBhg?si=H-UUG1Hc3DZT5m65"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_3: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/3aB3gBTnCdU?si=BycRUyZlLd0Z4a3s"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_4: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GUyhqN-j9sM?si=TQn6jsNGmYHdpk_6"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
     prestasi:
       "Dalam skala Nasional, Penggunaan serunai dalam pertunjukan wayang kulit dan tarian tradisional, serta keikutsertaannya dalam berbagai festival seni di seluruh Indonesia.",
     img: Serunai,
@@ -62,10 +183,50 @@ const items = [
 
   {
     id: 3,
-    iframe: "https://www.youtube.com/embed/6diGBQX_ecU?si=3Z55y-2vjrxWW2BY",
-    iframe_2: "https://www.youtube.com/embed/Z8lIue5jMfw?si=vcW2vUO56ZBAOyKR",
-    iframe_3: "https://www.youtube.com/embed/Fh3UbuJhMcI?si=W5-186UdwzWJEmZ6",
-    iframe_4: "https://www.youtube.com/embed/u2DPrhv5G1M?si=tua5twCSlECeerl9",
+    iframe: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/6diGBQX_ecU?si=3Z55y-2vjrxWW2BY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Z8lIue5jMfw?si=vcW2vUO56ZBAOyKR"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_3: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Fh3UbuJhMcI?si=W5-186UdwzWJEmZ6"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_4: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/u2DPrhv5G1M?si=tua5twCSlECeerl9"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
     prestasi:
       "Dalam skala Nasional, Pemakaian siter digunakan dalam pertunjukan seni tradisional Jawa.",
     img: Siter,
@@ -79,10 +240,50 @@ const items = [
 
   {
     id: 4,
-    iframe: "https://www.youtube.com/embed/7aCftg3ufyo?si=JJFklvQrnORWc9VN",
-    iframe_2: "https://www.youtube.com/embed/55sAJnWc6Pk?si=ClFJNtw2KTebBFtN",
-    iframe_3: "https://www.youtube.com/embed/hbYRjaXkrls?si=sfw5G9G-hN-_qSep",
-    iframe_4: "https://www.youtube.com/embed/9fd1SOT_OOA?si=CVkNCX5ql3DfF6fx",
+    iframe: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/7aCftg3ufyo?si=JJFklvQrnORWc9VN"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/55sAJnWc6Pk?si=ClFJNtw2KTebBFtN"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_3: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hbYRjaXkrls?si=sfw5G9G-hN-_qSep"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_4: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9fd1SOT_OOA?si=CVkNCX5ql3DfF6fx"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
     prestasi:
       "Secara Internasional, mendapatkan Pengakuan sebagai Warisan Kemanusiaan Nonbendawi oleh UNESCO pada tahun 2010.",
     img: Angklung_Jawa,
@@ -110,10 +311,50 @@ const items = [
 
   {
     id: 6,
-    iframe: "https://www.youtube.com/embed/9sVtHe2U-Ow?si=l5OmnITUPELSGWLx",
-    iframe_2: "https://www.youtube.com/embed/xT0L8DxR93I?si=6ka9hfqv7twhyC7N",
-    iframe_3: "https://www.youtube.com/embed/dQQhmzNDADc?si=ThIcZnf_EnJ8bBha",
-    iframe_4: "https://www.youtube.com/embed/N2Eretq2ccU?si=SqcoOX5dSEHc_MXj",
+    iframe: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9sVtHe2U-Ow?si=l5OmnITUPELSGWLx"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xT0L8DxR93I?si=6ka9hfqv7twhyC7N"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_3: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dQQhmzNDADc?si=ThIcZnf_EnJ8bBha"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_4: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/N2Eretq2ccU?si=SqcoOX5dSEHc_MXj"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
     prestasi:
       "Dalam skala Nasional, Penggunaan gandrang bulo dalam upacara adat suku Tana Toraja di Sulawesi Selatan.",
     img: Gandrang_Bulo,
@@ -126,10 +367,50 @@ const items = [
 
   {
     id: 7,
-    iframe: "https://www.youtube.com/embed/pGFmlhoOsAY?si=ChXJAEzubNNNX9OO",
-    iframe_2: "https://www.youtube.com/embed/83P5HyM64II?si=lhCjnvXE7Nu8R3WH",
-    iframe_3: "https://www.youtube.com/embed/_LDT7b2Kd_0?si=eriUOQGcKso-LaFe",
-    iframe_4: "https://www.youtube.com/embed/XyIr9-K3ypA?si=grX9mJvSz-NzNSTo",
+    iframe: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/pGFmlhoOsAY?si=ChXJAEzubNNNX9OO"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/83P5HyM64II?si=lhCjnvXE7Nu8R3WH"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_3: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/_LDT7b2Kd_0?si=eriUOQGcKso-LaFe"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_4: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/XyIr9-K3ypA?si=grX9mJvSz-NzNSTo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
     prestasi: "Belum ada catatan Informasi saat ini.",
     img: Tambua,
     nama: "Tambua",
@@ -142,10 +423,50 @@ const items = [
 
   {
     id: 8,
-    iframe: "https://www.youtube.com/embed/8AhMgjk9at8?si=uc-Er3OX6p0-YvRs",
-    iframe_2: "https://www.youtube.com/embed/hXDzvKr_I24?si=ZLv3R4fU8yrvj8yX",
-    iframe_3: "https://www.youtube.com/embed/KRNQ5_WDmVU?si=WUHAE8BpCokM1sT1",
-    iframe_4: "https://www.youtube.com/embed/3B2FmbLnHcE?si=hv0a9IovfrQtK4Q0",
+    iframe: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8AhMgjk9at8?si=uc-Er3OX6p0-YvRs"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hXDzvKr_I24?si=ZLv3R4fU8yrvj8yX"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_3: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/KRNQ5_WDmVU?si=WUHAE8BpCokM1sT1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
+    iframe_4: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/3B2FmbLnHcE?si=hv0a9IovfrQtK4Q0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    ),
     prestasi:
       "Dalam skala Nasional, Tifa sangat bernilai dalam Keikutsertaan di festival budaya di Papua dan Maluku. Mungkin juga telah menjadi bagian dari penampilan kelompok seni Indonesia dalam festival internasional.",
     img: Tifa,
