@@ -2,7 +2,7 @@ import Gendang from "./assets/img/gendang/Gendang.png";
 import Rebab from "./assets/img/rebab/Rebab.png";
 import Serunai from "./assets/img/serunai/Serunai.png";
 import Siter from "./assets/img/siter/Siter.png";
-import Angklung_Bali from "./assets/img/angklung_bali/Angklung_Bali.png";
+// import Angklung_Bali from "./assets/img/angklung_bali/Angklung_Bali.png";
 import Angklung_Jawa from "./assets/img/angklung_jawa/Angklung_Jawa.png";
 import Gandrang_Bulo from "./assets/img/gandrang_bulo/Gandrang_Bulo.png";
 import Tambua from "./assets/img/tambua/Tambua.png";

@@ -3,45 +3,48 @@ import "./register.css";
 import { Link } from "react-router-dom";
 import Navbar from "../../Utility/navbar/Navbar";
 import Footer from "../../Utility/footer/Footer";
+import Modal from "../../Utility/modal/Modal";
+import logo from "../../../assets/logo.png";
 
-function Register() {
+function Register({ renderLoginHandler, closeHandler }) {
   return (
-    <div className="register">
-      <div className="regisContainer">
-        <div className="music">
-          <img src="./peoplemusic.png" />
-        </div>
-        <h1>Selamat Berkunjung!</h1>
+    <Modal>
+      <div className="register">
+        <div className="regisContainer">
+          <div className="logo">
+            <img src={logo} />
+          </div>
+          <h1>Selamat Datang!</h1>
+          <span>Belajar Ragam Musik Indonesia</span>
 
-        <div className="input-container">
-          <input type="text" name="email" placeholder="email" />
+          <div className="input-container">
+            <input type="text" name="email" placeholder="Email" />
+          </div>
+          <div className="input-container">
+            <input type="text" name="uname" placeholder="Username" />
+          </div>
+          <div className="input-container">
+            <input type="password" name="pass" placeholder="Password" />
+          </div>
+          <div className="input-container">
+            <input
+              type="password"
+              name="confirmpass"
+              placeholder="Confirm Password"
+            />
+          </div>
+          <div className="punya__akun">
+            <p onClick={renderLoginHandler}>Sudah Punya Akun</p>
+          </div>
+          <div className="akunBtn">
+            <button className="button">Register</button>
+          </div>
+          <div className="close" onClick={closeHandler}>
+            X
+          </div>
         </div>
-        <div className="input-container">
-          <input type="text" name="uname" placeholder="username" />
-        </div>
-        <div className="input-container">
-          <input type="password" name="pass" placeholder="password" />
-        </div>
-        <div className="input-container">
-          <input
-            type="password"
-            name="confirmpass"
-            placeholder="confirm password"
-          />
-        </div>
-        <Link to="/login">
-          <a href="#">Lupa Password?</a>
-        </Link>
-        <Link to="/login">
-          <a href="#">Buat akun baru</a>
-        </Link>
-        <Link to="/">
-          <button className="regisBut">
-            <p>Login</p>
-          </button>
-        </Link>
       </div>
-    </div>
+    </Modal>
   );
 }
 

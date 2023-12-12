@@ -2,7 +2,8 @@ import React from "react";
 import Modal from "../Utility/modal/Modal";
 import "./iframe.css";
 function Iframe({ iframe }) {
-  const embeddedString = iframe;
+  const embeddedString =
+    "https://www.youtube.com/embed/7aCftg3ufyo?si=JJFklvQrnORWc9VN";
   return (
     <Modal>
       <div className="iframe">
