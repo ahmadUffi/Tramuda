@@ -1,8 +1,10 @@
 import { NavLink, Link } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 import "./navbar.css";
 import Button from "../button/Button";
 import Tilt from "react-parallax-tilt";
 import { useState } from "react";
+import Login from "../../auth/login/Login";
 
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
@@ -14,12 +16,20 @@ function Navbar() {
   function scrollTop() {
     window.scrollTo(top);
   }
+
+  const [isLogin, setIsLogin] = useState(false);
+  // const navigate = useNavigate();
+
+  function renderLogin() {
+    setIsLogin(!isLogin);
+  }
+
   return (
     <nav className="navbar">
       <div className="nav-wrapper">
         <div className="logo">
           <NavLink to="/" style={{ textDecoration: "none" }}>
-            <h1>Tramuda.com</h1>
+            <h1>Tramuda</h1>
           </NavLink>
         </div>
         <div className="burger" onClick={isActiveHandler}>
@@ -28,8 +38,8 @@ function Navbar() {
           <div></div>
         </div>
         <div className={isActive == false ? "items pending" : "items active"}>
-          <div>
-            <NavLink to="/home" className="pending" onClick={scrollTop}>
+          <div className="items_wraper">
+            <NavLink to="/home" className="navlink" onClick={scrollTop}>
               <div className="item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +58,7 @@ function Navbar() {
                 <span className="item_name">Home</span>
               </div>
             </NavLink>
-            <NavLink to="/akun" className="pending" onClick={scrollTop}>
+            <NavLink to="/akun" className="navlink" onClick={scrollTop}>
               <div className="item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +77,7 @@ function Navbar() {
                 <span className="item_name">Akun</span>
               </div>
             </NavLink>
-            <NavLink to="/kontak" className="pending" onClick={scrollTop}>
+            <NavLink to="/kontak" className="navlink" onClick={scrollTop}>
               <div className="item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -88,12 +98,13 @@ function Navbar() {
             </NavLink>
           </div>
           <Tilt>
-            <div className="loginBtn item">
-              <Button action="LOGIN" />
+            <div className="loginBtn item" onClick={renderLogin}>
+              <button className="button">Login</button>
             </div>
           </Tilt>
         </div>
       </div>
+      {isLogin && <Login renderLogin={renderLogin} />}
     </nav>
   );
 }

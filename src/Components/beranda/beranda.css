@@ -16,9 +16,7 @@
   text-align: center;
   color: var(--white);
   font-size: 54px;
-  text-shadow: 0px 0px 0 rgb(230, 230, 230), 0px 1px 0 rgb(205, 205, 205),
-    0px 2px 0 rgb(180, 180, 180), 0px 3px 2px rgba(255, 255, 255, 0.15),
-    0px 3px 1px rgba(255, 255, 255, 0.5), 0px 0px 2px rgba(255, 255, 255, 0.2);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
   opacity: 0;
 }
 
@@ -29,12 +27,13 @@
   animation: 1s fadeRight forwards ease;
 }
 
-.filter-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 48px;
-  margin-top: 23px;
+.filter__container {
+  margin: 23px 0;
+  position: relative;
+}
+
+.berandaContainer .curosel {
+  margin-top: -30px;
 }
 
 footer {
@@ -57,8 +56,10 @@ footer {
     color: var(--white);
     font-size: 28px;
     font-weight: 600;
-    text-shadow: 0px 0px 0 rgb(230, 230, 230), 0px 1px 0 rgb(205, 205, 205),
-      0px 2px 0 rgb(180, 180, 180), 0px 3px 2px rgba(255, 255, 255, 0.15);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  }
+  .berandaContainer .curosel {
+    margin-top: 0;
   }
 }
 
@@ -67,10 +68,5 @@ footer {
   .beranda .berandaContainer .title h1 span {
     color: var(--white);
     font-size: 18px;
-  }
-
-  .filter {
-    flex-direction: column;
-    gap: 20px;
   }
 }

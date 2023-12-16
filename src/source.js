@@ -11,6 +11,50 @@ import Tifa from "./assets/img/tifa/Tifa.png";
 const items = [
   {
     id: 0,
+    iframe: `<iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ARc1aHnwsYc?si=AAjUDuLpgiKfFU4t"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>`,
+
+    iframe_2: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/N-6agJmUh7A?si=fH-wCzWCxOyZArnj"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_3: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xDoOtTxMzlQ?si=_BUa7mhVYdlKaDBy"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_4: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/53g21AJzrj4?si=Vcun1rlbxVgrw-4M"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    prestasi:
+      "Dalam skala Nasional, Penggunaan gendang digunakan di berbagai kesenian tradisional, termasuk dalam tari-tarian dan upacara adat Jawa.",
     img: Gendang,
     nama: "Gendang",
     memainkan: "Dipukul",
@@ -22,6 +66,52 @@ const items = [
 
   {
     id: 1,
+    iframe: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/tucUL78LjNs?si=lD0IyEB7jf6F08TX"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_2: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/YwzItDjvr-o?si=nLch1AXxWP56NaaE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_3: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8yfp3x4q_OQ?si=8uyoLkOrKv7WF3Fy"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_4: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/oKTb3OAw334?si=vIySpLidvzNBBJSc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    prestasi:
+      "Dalam skala Nasional, Peran rebab dalam musik tradisional Indonesia, terutama dalam menyertai pertunjukan wayang kulit dan tarian.",
     img: Rebab,
     nama: "Rebab",
     memainkan: "Digesek",
@@ -33,6 +123,52 @@ const items = [
 
   {
     id: 2,
+    iframe: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GUyhqN-j9sM?si=40YDPZ11rjBqAvxW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_2: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/mRPIAIiJBhg?si=H-UUG1Hc3DZT5m65"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_3: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/3aB3gBTnCdU?si=BycRUyZlLd0Z4a3s"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_4: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GUyhqN-j9sM?si=TQn6jsNGmYHdpk_6"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    prestasi:
+      "Dalam skala Nasional, Penggunaan serunai dalam pertunjukan wayang kulit dan tarian tradisional, serta keikutsertaannya dalam berbagai festival seni di seluruh Indonesia.",
     img: Serunai,
     nama: "Serunai",
     memainkan: "Ditiup",
@@ -44,6 +180,52 @@ const items = [
 
   {
     id: 3,
+    iframe: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/6diGBQX_ecU?si=3Z55y-2vjrxWW2BY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_2: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Z8lIue5jMfw?si=vcW2vUO56ZBAOyKR"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_3: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Fh3UbuJhMcI?si=W5-186UdwzWJEmZ6"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_4: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/u2DPrhv5G1M?si=tua5twCSlECeerl9"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    prestasi:
+      "Dalam skala Nasional, Pemakaian siter digunakan dalam pertunjukan seni tradisional Jawa.",
     img: Siter,
     nama: "Siter",
     memainkan: "Dipetik",
@@ -55,10 +237,58 @@ const items = [
 
   {
     id: 4,
+    iframe: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/7aCftg3ufyo?si=JJFklvQrnORWc9VN"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_2: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/55sAJnWc6Pk?si=ClFJNtw2KTebBFtN"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_3: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hbYRjaXkrls?si=sfw5G9G-hN-_qSep"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_4: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9fd1SOT_OOA?si=CVkNCX5ql3DfF6fx"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    prestasi:
+      "Secara Internasional, mendapatkan Pengakuan sebagai Warisan Kemanusiaan Nonbendawi oleh UNESCO pada tahun 2010.",
     img: Angklung_Jawa,
     nama: "Angklung Jawa",
     memainkan: "Digoyang",
     threeD: "67828b9e9fce43d3b46f902e99c17f65",
+    embade:
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/z-MhTrJGasc?si=s6P75meXch9eGegs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>',
     asal: "Jawa Barat",
     p1: "Angklung berasal dari wilayah Sunda di Pulau Jawa, Indonesia. Ini adalah instrumen musik tradisional yang telah ada selama berabad-abad dan menjadi bagian penting dari budaya musik Sunda. Angklung terbuat dari bambu, yang dipilih dengan hati-hati untuk menciptakan berbagai ukuran tabung yang menghasilkan nada yang berbeda. Setiap tabung bambu memiliki panjang tertentu untuk menciptakan frekuensi atau tinggi nada yang diinginkan. Tabung-tabung ini diikat bersama di sepotong bambu atau rangka yang lebih besar, biasanya diikat dengan tali rotan. Setiap angklung memiliki tangkai atau pegangan yang dapat dipukul untuk menghasilkan suara.",
     p2: "Angklung dimainkan dengan cara dipukul menggunakan tangan. Ketika angklung digoyangkan, tabung-tabung bambu akan saling bertabrakan, menghasilkan suara yang indah. Berbagai tinggi nada dapat dihasilkan dengan memukul angklung yang berbeda. Meskipun angklung Sunda adalah yang paling terkenal, setiap daerah di Indonesia memiliki variasi angklungnya sendiri, baik dalam hal konstruksi, teknik bermain, maupun lagu-lagu tradisional yang diperdengarkan. Angklung memiliki peran penting dalam budaya Jawa dan Indonesia pada umumnya. Ini sering digunakan dalam berbagai pertunjukan seni tradisional, tari-tarian, dan upacara adat. Keunikan suara angklung menciptakan atmosfer yang khas dan mendalam dalam berbagai acara budaya.",
@@ -78,17 +308,107 @@ const items = [
 
   {
     id: 6,
+    iframe: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9sVtHe2U-Ow?si=l5OmnITUPELSGWLx"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_2: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xT0L8DxR93I?si=6ka9hfqv7twhyC7N"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_3: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dQQhmzNDADc?si=ThIcZnf_EnJ8bBha"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_4: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/N2Eretq2ccU?si=SqcoOX5dSEHc_MXj"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    prestasi:
+      "Dalam skala Nasional, Penggunaan gandrang bulo dalam upacara adat suku Tana Toraja di Sulawesi Selatan.",
     img: Gandrang_Bulo,
     nama: "Gandrang Bulo",
     memainkan: "Ditabuh dengan pemukul",
-    asal: "Jawa Barat",
+    asal: "Makassar",
     threeD: "21c60cffafad447d83a7314926241cec",
-    p1: "Siteran atau bisa juga disebut Siter adalah alat musik yang berasal dari Jawa Barat, sebuah provinsi di pulau Jawa, Indonesia. Ini memiliki sejarah yang panjang dalam budaya Jawa Barat dan telah digunakan dalam berbagai konteks selama berabad-abad. Siteran adalah bagian yang tidak terpisahkan dari budaya tradisional Jawa Barat. Siteran biasanya terbuat dari bambu dan memiliki rancangan yang sederhana. Alat musik ini terdiri dari beberapa tabung bambu yang dipotong dalam berbagai panjang, yang kemudian disusun sedemikian rupa untuk menghasilkan nada-nada yang berbeda. Bagian atas tabung-tabung ini dibuka, dan pemain menggunakan teknik meniup untuk menghasilkan melodi. Siteran digunakan dalam berbagai pertunjukan seni tradisional Jawa Barat. Ini sering digunakan untuk mengiringi tari-tarian tradisional, seperti tari Jaipong, tari Topeng, atau tari Sunda lainnya. Siteran menciptakan dasar musikal yang kuat untuk pengiringan tari dan memperkaya pengalaman seni pertunjukan.",
-    p2: "Siteran adalah simbol budaya Jawa Barat dan mencerminkan warisan budaya yang kaya. Suara siteran menciptakan rasa nostalgia dan menghubungkan masyarakat Jawa Barat dengan akar budaya mereka yang dalam. Meskipun siteran adalah instrumen tradisional, alat musik ini terus berkembang dan mendapatkan pengaruh dari musik modern. Beberapa musisi dan komposer mencoba mengintegrasikan siteran dalam musik kontemporer, menciptakan perpaduan unik antara tradisi dan inovasi.",
+    p1: "Gandrang Bulo adalah alat musik tradisional dari Makassar, Sulawesi Selatan. Alat musik ini merupakan jenis gendang atau gandrang yang digunakan sebagai alat pengiring tarian tradisional dan penanda diadakannya upacara adat, termasuk upacara pernikahan adat Makassar. Gandrang Bulo dimainkan dengan cara dipukul dan terbuat dari bahan bambu. Alat musik ini telah ada sejak masa pemerintahan Kerajaan Gowa, jauh sebelum masa kemerdekaan Indonesia, dan masih dapat ditemui dalam kehidupan masyarakat pendukungnya hingga saat ini.",
   },
 
   {
     id: 7,
+    iframe: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/pGFmlhoOsAY?si=ChXJAEzubNNNX9OO"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_2: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/83P5HyM64II?si=lhCjnvXE7Nu8R3WH"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_3: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/_LDT7b2Kd_0?si=eriUOQGcKso-LaFe"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_4: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/XyIr9-K3ypA?si=grX9mJvSz-NzNSTo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    prestasi: "Belum ada catatan Informasi saat ini.",
     img: Tambua,
     nama: "Tambua",
     memainkan: "Ditabuh dengan pemukul",
@@ -100,6 +420,52 @@ const items = [
 
   {
     id: 8,
+    iframe: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8AhMgjk9at8?si=uc-Er3OX6p0-YvRs"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    ),
+    iframe_2: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hXDzvKr_I24?si=ZLv3R4fU8yrvj8yX"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_3: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/KRNQ5_WDmVU?si=WUHAE8BpCokM1sT1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    iframe_4: `
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/3B2FmbLnHcE?si=hv0a9IovfrQtK4Q0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        
+      ></iframe>
+    `,
+    prestasi:
+      "Dalam skala Nasional, Tifa sangat bernilai dalam Keikutsertaan di festival budaya di Papua dan Maluku. Mungkin juga telah menjadi bagian dari penampilan kelompok seni Indonesia dalam festival internasional.",
     img: Tifa,
     nama: "Tifa",
     memainkan: "Dipukul",

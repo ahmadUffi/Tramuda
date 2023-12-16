@@ -12,6 +12,7 @@ function Curosel() {
           title={item.nama}
           asal={item.asal}
           paragraf={item.p1}
+          caraMain={item.memainkan}
           delay={item.id}
           allItem={item}
         />

@@ -7,7 +7,6 @@ import Footer from "../../Utility/footer/Footer";
 function Register() {
   return (
     <div className="register">
-      <Navbar />
       <div className="regisContainer">
         <div className="music">
           <img src="./peoplemusic.png" />
@@ -42,7 +41,6 @@ function Register() {
           </button>
         </Link>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -139,6 +139,7 @@ textarea {
   font-weight: normal;
   flex-basis: 130px;
   margin-left: 8px;
+  cursor: pointer;
 }
 .contact_form form .form-group .form-control img {
   width: 35px;
@@ -156,6 +157,10 @@ textarea {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.contact_form form .form-group .form-control {
+  width: 220px;
 }
 
 @media screen and (min-width: 720px) {
@@ -177,7 +182,7 @@ textarea {
   }
 
   .contact_form form .form-group .form-control {
-    width: 320px;
+    width: 220px;
   }
 }
 @media screen and (max-width: 360px) {

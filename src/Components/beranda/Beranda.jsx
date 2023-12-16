@@ -15,10 +15,12 @@ function Beranda() {
           <h1 className="title1">Aku Cinta Budaya Negeri Ku</h1>
           <h1 className="title2">Karena Itu Adalah Kebanggaanku</h1>
         </div>
-        <div className="filter-container">
+        <div className="filter__container">
           <Filter filterFor="Asal Daerah" />
         </div>
-        <Curosel />
+        <div className="curosel__container">
+          <Curosel />
+        </div>
       </div>
       <Footer />
     </div>

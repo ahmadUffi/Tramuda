@@ -22,7 +22,7 @@ const Kontak = () => {
             <label>Nama lengkap</label>
           </div>
           <div className="inputBox">
-            <input type="text" required />
+            <input type="email" required />
             <label>Email</label>
           </div>
           <div className="inputBox">
