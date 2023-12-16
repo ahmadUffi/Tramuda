@@ -11,7 +11,6 @@ import Tifa from "./assets/img/tifa/Tifa.png";
 const items = [
   {
     id: 0,
-<<<<<<< HEAD
     iframe: `
     <iframe
       width="560"
@@ -56,50 +55,6 @@ const items = [
       allowfullscreen
     ></iframe>
   `,
-=======
-    iframe: `<iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ARc1aHnwsYc?si=AAjUDuLpgiKfFU4t"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        ></iframe>`,
-
-    iframe_2: `
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/N-6agJmUh7A?si=fH-wCzWCxOyZArnj"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
-    iframe_3: `
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/xDoOtTxMzlQ?si=_BUa7mhVYdlKaDBy"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
-    iframe_4: `
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/53g21AJzrj4?si=Vcun1rlbxVgrw-4M"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
     prestasi:
       "Dalam skala Nasional, Penggunaan gendang digunakan di berbagai kesenian tradisional, termasuk dalam tari-tarian dan upacara adat Jawa.",
     img: Gendang,
@@ -238,12 +193,7 @@ const items = [
         
       ></iframe>
     `,
-<<<<<<< HEAD
     iframe_2: `<iframe
-=======
-    iframe_2: `
-      <iframe
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
         width="560"
         height="315"
         src="https://www.youtube.com/embed/Z8lIue5jMfw?si=vcW2vUO56ZBAOyKR"
@@ -253,43 +203,24 @@ const items = [
         
       ></iframe>
     `,
-<<<<<<< HEAD
     iframe_3: `<iframe
-=======
-    iframe_3: `
-      <iframe
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
         width="560"
         height="315"
         src="https://www.youtube.com/embed/Fh3UbuJhMcI?si=W5-186UdwzWJEmZ6"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-<<<<<<< HEAD
         allowfullscreen
       ></iframe`,
     iframe_4: `<iframe
-=======
-        
-      ></iframe>
-    `,
-    iframe_4: `
-      <iframe
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
         width="560"
         height="315"
         src="https://www.youtube.com/embed/u2DPrhv5G1M?si=tua5twCSlECeerl9"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-<<<<<<< HEAD
         allowfullscreen
       ></iframe>`,
-=======
-        
-      ></iframe>
-    `,
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
     prestasi:
       "Dalam skala Nasional, Pemakaian siter digunakan dalam pertunjukan seni tradisional Jawa.",
     img: Siter,
@@ -322,14 +253,8 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-<<<<<<< HEAD
         allowfullscreen
       ></iframe>`,
-=======
-        
-      ></iframe>
-    `,
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
     iframe_3: `
       <iframe
         width="560"
@@ -338,7 +263,6 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
       ></iframe>
     `,
     iframe_4: `
@@ -350,12 +274,7 @@ const items = [
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         
-      ></iframe>
-<<<<<<< HEAD
-    )`,
-=======
-    `,
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
+      ></iframe>`,
     prestasi:
       "Secara Internasional, mendapatkan Pengakuan sebagai Warisan Kemanusiaan Nonbendawi oleh UNESCO pada tahun 2010.",
     img: Angklung_Jawa,
@@ -405,12 +324,7 @@ const items = [
         
       ></iframe>
     `,
-<<<<<<< HEAD
     iframe_3: `      <iframe
-=======
-    iframe_3: `
-      <iframe
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
         width="560"
         height="315"
         src="https://www.youtube.com/embed/dQQhmzNDADc?si=ThIcZnf_EnJ8bBha"
@@ -420,26 +334,15 @@ const items = [
         
       ></iframe>
     `,
-<<<<<<< HEAD
     iframe_4: `      <iframe
-=======
-    iframe_4: `
-      <iframe
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
         width="560"
         height="315"
         src="https://www.youtube.com/embed/N2Eretq2ccU?si=SqcoOX5dSEHc_MXj"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-<<<<<<< HEAD
         allowfullscreen
       ></iframe>`,
-=======
-        
-      ></iframe>
-    `,
->>>>>>> 2cf953b9ed232f584a7cb2a32b03e3d35122e1cd
     prestasi:
       "Dalam skala Nasional, Penggunaan gandrang bulo dalam upacara adat suku Tana Toraja di Sulawesi Selatan.",
     img: Gandrang_Bulo,

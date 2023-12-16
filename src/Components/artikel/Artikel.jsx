@@ -127,7 +127,7 @@ function Artikel() {
           <div className="watch">
             <div className="watchCard" data-aos="flip-down">
               <div className="images">
-                <div dangerouslySetInnerHTML={{ __html: item.frame }} />
+                <div dangerouslySetInnerHTML={{ __html: item.iframe }} />
               </div>
               <div>
                 <Button
@@ -140,7 +140,7 @@ function Artikel() {
             </div>
             <div className="watchCard" data-aos="fade-up">
               <div className="images">
-                <dir dangerouslySetInnerHTML={{ __html: item.frame }} />
+                <dir dangerouslySetInnerHTML={{ __html: item.iframe_2 }} />
               </div>
               <div>
                 <Button
@@ -152,7 +152,7 @@ function Artikel() {
               </div>
             </div>
             <div className="watchCard" data-aos="flip-down">
-              <div className="images">{item.iframe_3}</div>
+              <dir dangerouslySetInnerHTML={{ __html: item.iframe_3 }} />
               <div>
                 <Button
                   className="btnFrame"
@@ -163,7 +163,7 @@ function Artikel() {
               </div>
             </div>
             <div className="watchCard" data-aos="flip-down">
-              <div className="images">{item.iframe_4}</div>
+              <dir dangerouslySetInnerHTML={{ __html: item.iframe_4 }} />
               <div>
                 <Button
                   className="btnFrame"
@@ -187,7 +187,6 @@ function Artikel() {
           </div>
         </div>
       </div>
-      {isIframe && <Iframe iframe={item.iframe} />}
       <Footer />
     </div>
   );
