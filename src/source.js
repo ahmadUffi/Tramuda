@@ -11,19 +11,16 @@ import Tifa from "./assets/img/tifa/Tifa.png";
 const items = [
   {
     id: 0,
-    iframe: (
-      <iframe
+    iframe: `<iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/ARc1aHnwsYc?si=AAjUDuLpgiKfFU4t"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    ),
+        ></iframe>`,
 
-    iframe_2: (
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -31,10 +28,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -42,10 +39,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -53,9 +50,9 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Penggunaan gendang digunakan di berbagai kesenian tradisional, termasuk dalam tari-tarian dan upacara adat Jawa.",
     img: Gendang,
@@ -69,7 +66,7 @@ const items = [
 
   {
     id: 1,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -77,10 +74,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -88,10 +85,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -99,10 +96,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -110,9 +107,9 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Peran rebab dalam musik tradisional Indonesia, terutama dalam menyertai pertunjukan wayang kulit dan tarian.",
     img: Rebab,
@@ -126,7 +123,7 @@ const items = [
 
   {
     id: 2,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -134,10 +131,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -145,10 +142,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -156,10 +153,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -167,9 +164,9 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Penggunaan serunai dalam pertunjukan wayang kulit dan tarian tradisional, serta keikutsertaannya dalam berbagai festival seni di seluruh Indonesia.",
     img: Serunai,
@@ -183,7 +180,7 @@ const items = [
 
   {
     id: 3,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -191,10 +188,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -202,10 +199,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -213,10 +210,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -224,9 +221,9 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Pemakaian siter digunakan dalam pertunjukan seni tradisional Jawa.",
     img: Siter,
@@ -240,7 +237,7 @@ const items = [
 
   {
     id: 4,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -248,10 +245,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -259,10 +256,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -270,10 +267,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -281,9 +278,9 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
+    `,
     prestasi:
       "Secara Internasional, mendapatkan Pengakuan sebagai Warisan Kemanusiaan Nonbendawi oleh UNESCO pada tahun 2010.",
     img: Angklung_Jawa,
@@ -291,7 +288,7 @@ const items = [
     memainkan: "Digoyang",
     threeD: "67828b9e9fce43d3b46f902e99c17f65",
     embade:
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/z-MhTrJGasc?si=s6P75meXch9eGegs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/z-MhTrJGasc?si=s6P75meXch9eGegs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>',
     asal: "Jawa Barat",
     p1: "Angklung berasal dari wilayah Sunda di Pulau Jawa, Indonesia. Ini adalah instrumen musik tradisional yang telah ada selama berabad-abad dan menjadi bagian penting dari budaya musik Sunda. Angklung terbuat dari bambu, yang dipilih dengan hati-hati untuk menciptakan berbagai ukuran tabung yang menghasilkan nada yang berbeda. Setiap tabung bambu memiliki panjang tertentu untuk menciptakan frekuensi atau tinggi nada yang diinginkan. Tabung-tabung ini diikat bersama di sepotong bambu atau rangka yang lebih besar, biasanya diikat dengan tali rotan. Setiap angklung memiliki tangkai atau pegangan yang dapat dipukul untuk menghasilkan suara.",
     p2: "Angklung dimainkan dengan cara dipukul menggunakan tangan. Ketika angklung digoyangkan, tabung-tabung bambu akan saling bertabrakan, menghasilkan suara yang indah. Berbagai tinggi nada dapat dihasilkan dengan memukul angklung yang berbeda. Meskipun angklung Sunda adalah yang paling terkenal, setiap daerah di Indonesia memiliki variasi angklungnya sendiri, baik dalam hal konstruksi, teknik bermain, maupun lagu-lagu tradisional yang diperdengarkan. Angklung memiliki peran penting dalam budaya Jawa dan Indonesia pada umumnya. Ini sering digunakan dalam berbagai pertunjukan seni tradisional, tari-tarian, dan upacara adat. Keunikan suara angklung menciptakan atmosfer yang khas dan mendalam dalam berbagai acara budaya.",
@@ -311,7 +308,7 @@ const items = [
 
   {
     id: 6,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -319,10 +316,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -330,10 +327,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -341,10 +338,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -352,9 +349,9 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Penggunaan gandrang bulo dalam upacara adat suku Tana Toraja di Sulawesi Selatan.",
     img: Gandrang_Bulo,
@@ -367,7 +364,7 @@ const items = [
 
   {
     id: 7,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -375,10 +372,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -386,10 +383,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -397,10 +394,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -408,9 +405,9 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
+    `,
     prestasi: "Belum ada catatan Informasi saat ini.",
     img: Tambua,
     nama: "Tambua",
@@ -423,7 +420,7 @@ const items = [
 
   {
     id: 8,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -431,7 +428,7 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
     ),
     iframe_2: (
@@ -442,10 +439,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -453,10 +450,10 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -464,9 +461,9 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Tifa sangat bernilai dalam Keikutsertaan di festival budaya di Papua dan Maluku. Mungkin juga telah menjadi bagian dari penampilan kelompok seni Indonesia dalam festival internasional.",
     img: Tifa,

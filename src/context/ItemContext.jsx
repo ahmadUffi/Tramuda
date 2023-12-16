@@ -10,6 +10,9 @@ function ItemsProvider({ children }) {
   const dataItem = {
     id: "",
     nama: "",
+    iframe: "0",
+    iframe_2: "0",
+    iframe_3: "0",
     memainkan: "",
     asal: "",
     p1: "",
