@@ -11,51 +11,50 @@ import Tifa from "./assets/img/tifa/Tifa.png";
 const items = [
   {
     id: 0,
-    iframe: (
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ARc1aHnwsYc?si=AAjUDuLpgiKfFU4t"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    ),
-
-    iframe_2: (
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/N-6agJmUh7A?si=fH-wCzWCxOyZArnj"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    ),
-    iframe_3: (
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/xDoOtTxMzlQ?si=_BUa7mhVYdlKaDBy"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    ),
-    iframe_4: (
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/53g21AJzrj4?si=Vcun1rlbxVgrw-4M"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    ),
+    iframe: `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/ARc1aHnwsYc?si=AAjUDuLpgiKfFU4t"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `,
+    iframe_2: `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/N-6agJmUh7A?si=fH-wCzWCxOyZArnj"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `,
+    iframe_3: `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/xDoOtTxMzlQ?si=_BUa7mhVYdlKaDBy"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `,
+    iframe_4: `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/53g21AJzrj4?si=Vcun1rlbxVgrw-4M"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `,
     prestasi:
       "Dalam skala Nasional, Penggunaan gendang digunakan di berbagai kesenian tradisional, termasuk dalam tari-tarian dan upacara adat Jawa.",
     img: Gendang,
@@ -69,7 +68,7 @@ const items = [
 
   {
     id: 1,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -79,8 +78,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -90,8 +89,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -101,8 +100,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -112,7 +111,7 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Peran rebab dalam musik tradisional Indonesia, terutama dalam menyertai pertunjukan wayang kulit dan tarian.",
     img: Rebab,
@@ -126,7 +125,7 @@ const items = [
 
   {
     id: 2,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -136,8 +135,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -147,8 +146,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -158,8 +157,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -169,7 +168,7 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Penggunaan serunai dalam pertunjukan wayang kulit dan tarian tradisional, serta keikutsertaannya dalam berbagai festival seni di seluruh Indonesia.",
     img: Serunai,
@@ -183,7 +182,7 @@ const items = [
 
   {
     id: 3,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -193,9 +192,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_2: (
-      <iframe
+    `,
+    iframe_2: `<iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/Z8lIue5jMfw?si=vcW2vUO56ZBAOyKR"
@@ -204,9 +202,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_3: (
-      <iframe
+    `,
+    iframe_3: `<iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/Fh3UbuJhMcI?si=W5-186UdwzWJEmZ6"
@@ -214,10 +211,8 @@ const items = [
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe>
-    ),
-    iframe_4: (
-      <iframe
+      ></iframe`,
+    iframe_4: `<iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/u2DPrhv5G1M?si=tua5twCSlECeerl9"
@@ -225,8 +220,7 @@ const items = [
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe>
-    ),
+      ></iframe>`,
     prestasi:
       "Dalam skala Nasional, Pemakaian siter digunakan dalam pertunjukan seni tradisional Jawa.",
     img: Siter,
@@ -240,7 +234,7 @@ const items = [
 
   {
     id: 4,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -250,8 +244,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -260,9 +254,8 @@ const items = [
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe>
-    ),
-    iframe_3: (
+      ></iframe>`,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -272,8 +265,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -283,7 +276,7 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
+    )`,
     prestasi:
       "Secara Internasional, mendapatkan Pengakuan sebagai Warisan Kemanusiaan Nonbendawi oleh UNESCO pada tahun 2010.",
     img: Angklung_Jawa,
@@ -311,7 +304,7 @@ const items = [
 
   {
     id: 6,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -321,8 +314,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -332,9 +325,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_3: (
-      <iframe
+    `,
+    iframe_3: `      <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/dQQhmzNDADc?si=ThIcZnf_EnJ8bBha"
@@ -343,9 +335,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_4: (
-      <iframe
+    `,
+    iframe_4: `      <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/N2Eretq2ccU?si=SqcoOX5dSEHc_MXj"
@@ -353,8 +344,7 @@ const items = [
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe>
-    ),
+      ></iframe>`,
     prestasi:
       "Dalam skala Nasional, Penggunaan gandrang bulo dalam upacara adat suku Tana Toraja di Sulawesi Selatan.",
     img: Gandrang_Bulo,
@@ -367,7 +357,7 @@ const items = [
 
   {
     id: 7,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -377,8 +367,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -388,8 +378,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -399,8 +389,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -410,7 +400,7 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
+    `,
     prestasi: "Belum ada catatan Informasi saat ini.",
     img: Tambua,
     nama: "Tambua",
@@ -423,7 +413,7 @@ const items = [
 
   {
     id: 8,
-    iframe: (
+    iframe: `
       <iframe
         width="560"
         height="315"
@@ -433,8 +423,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"
@@ -444,8 +434,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_3: (
+    `,
+    iframe_3: `
       <iframe
         width="560"
         height="315"
@@ -455,8 +445,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
-    iframe_4: (
+    `,
+    iframe_4: `
       <iframe
         width="560"
         height="315"
@@ -466,7 +456,7 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-    ),
+    `,
     prestasi:
       "Dalam skala Nasional, Tifa sangat bernilai dalam Keikutsertaan di festival budaya di Papua dan Maluku. Mungkin juga telah menjadi bagian dari penampilan kelompok seni Indonesia dalam festival internasional.",
     img: Tifa,

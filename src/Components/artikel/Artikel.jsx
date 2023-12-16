@@ -66,7 +66,7 @@ function Artikel() {
           </div>
         </div>
       </div>
-      {isIframe && <Iframe iframe={item.embade} />}
+      {isIframe && <Iframe iframe={item.iframe} />}
       <Footer />
     </div>
   );

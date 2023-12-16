@@ -17,7 +17,7 @@ function Akun() {
     setIsActive((prev) => !prev);
   }
   return (
-    <section className="akun">
+    <div className="akun">
       <Navbar />
       <div className="akun_wrapper">
         <ProfileCard />
@@ -44,7 +44,7 @@ function Akun() {
         </div>
       </div>
       <Footer />
-    </section>
+    </div>
   );
 }
 

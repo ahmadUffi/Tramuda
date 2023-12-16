@@ -163,9 +163,6 @@ textarea {
   width: 220px;
 }
 
-@media screen and (min-width: 720px) {
-}
-
 @media screen and (max-width: 991px) {
   .imgDeskripsi h4 {
     font-size: 32px;
