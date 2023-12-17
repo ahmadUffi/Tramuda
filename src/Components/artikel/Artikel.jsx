@@ -26,15 +26,6 @@ function Artikel() {
   }, []);
 
   const [isIframe, setIsIframe] = useState(false);
-  const [page, setNewPage] = useState("details");
-
-  function iframeHandler() {
-    setIsIframe((prev) => !prev);
-  }
-
-  function NewPage(page) {
-    setNewPage(page);
-  }
 
   const header = document.getElementById("counterWrapper");
 
@@ -101,80 +92,75 @@ function Artikel() {
             data-aos="fade-zoom-in-up"
             data-aos-easing="linear"
           >
-            <button
-              className="buttonDetail active"
-              onClick={() => NewPage("details")}
-            >
+            <a className="buttonDetail active" href="longDescription">
               DETAIL
-            </button>
-            <button className="buttonDetail" onClick={() => NewPage("watch")}>
+            </a>
+            <a className="buttonDetail" href="#watch">
               WATCH
-            </button>
+            </a>
           </div>
         </div>
 
-        {page === "details" ? (
-          <div className="longDescription">
-            <div className="secondImg" data-aos="fade-right">
-              <img src={item.img} alt="" />
+        <div className="longDescription" id="longDescription">
+          <div className="secondImg" data-aos="fade-right">
+            <img src={item.img} alt="" />
+          </div>
+          <div className="paragraf" data-aos="fade-left">
+            <p>{item.p1}</p>
+            <p>{item.p2}</p>
+          </div>
+        </div>
+
+        <div className="watch" id="watch">
+          <div className="watchCard" data-aos="flip-down">
+            <div className="images">
+              <div dangerouslySetInnerHTML={{ __html: item.frame }} />
             </div>
-            <div className="paragraf" data-aos="fade-left">
-              <p>{item.p1}</p>
-              <p>{item.p2}</p>
+            <div>
+              <Button
+                className="btnFrame"
+                noScroll={true}
+                // onClick={iframeHandler}
+                action="View Full"
+              />
             </div>
           </div>
-        ) : (
-          <div className="watch">
-            <div className="watchCard" data-aos="flip-down">
-              <div className="images">
-                <div dangerouslySetInnerHTML={{ __html: item.frame }} />
-              </div>
-              <div>
-                <Button
-                  className="btnFrame"
-                  noScroll={true}
-                  // onClick={iframeHandler}
-                  action="View Full"
-                />
-              </div>
+          <div className="watchCard" data-aos="fade-up">
+            <div className="images">
+              <dir dangerouslySetInnerHTML={{ __html: item.frame }} />
             </div>
-            <div className="watchCard" data-aos="fade-up">
-              <div className="images">
-                <dir dangerouslySetInnerHTML={{ __html: item.frame }} />
-              </div>
-              <div>
-                <Button
-                  className="btnFrame"
-                  noScroll={true}
-                  // onClick={iframeHandler}
-                  action="View Full"
-                />
-              </div>
-            </div>
-            <div className="watchCard" data-aos="flip-down">
-              <div className="images">{item.iframe_3}</div>
-              <div>
-                <Button
-                  className="btnFrame"
-                  noScroll={true}
-                  // onClick={iframeHandler}
-                  action="View Full"
-                />
-              </div>
-            </div>
-            <div className="watchCard" data-aos="flip-down">
-              <div className="images">{item.iframe_4}</div>
-              <div>
-                <Button
-                  className="btnFrame"
-                  noScroll={true}
-                  // onClick={iframeHandler}
-                  action="View Full"
-                />
-              </div>
+            <div>
+              <Button
+                className="btnFrame"
+                noScroll={true}
+                // onClick={iframeHandler}
+                action="View Full"
+              />
             </div>
           </div>
-        )}
+          <div className="watchCard" data-aos="flip-down">
+            <div className="images">{item.iframe_3}</div>
+            <div>
+              <Button
+                className="btnFrame"
+                noScroll={true}
+                // onClick={iframeHandler}
+                action="View Full"
+              />
+            </div>
+          </div>
+          <div className="watchCard" data-aos="flip-down">
+            <div className="images">{item.iframe_4}</div>
+            <div>
+              <Button
+                className="btnFrame"
+                noScroll={true}
+                // onClick={iframeHandler}
+                action="View Full"
+              />
+            </div>
+          </div>
+        </div>
 
         <div className="action">
           <div className="kembali">
