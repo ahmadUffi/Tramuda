@@ -1,10 +1,10 @@
-import { NavLink, Link } from "react-router-dom";
-import ReactDOM from "react-dom/client";
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
-import Button from "../button/Button";
 import Tilt from "react-parallax-tilt";
 import { useState } from "react";
 import Login from "../../auth/login/Login";
+import Register from "../../auth/register/register";
+import logo from "../../../assets/logo.png";
 
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
@@ -18,18 +18,35 @@ function Navbar() {
   }
 
   const [isLogin, setIsLogin] = useState(false);
-  // const navigate = useNavigate();
-
-  function renderLogin() {
+  function renderLoginHandler() {
     setIsLogin(!isLogin);
+    setIsRegister(!isRegister);
+  }
+
+  function firstRenderLoginHandler() {
+    setIsLogin(!isLogin);
+  }
+  function firstRenderRegisHandler() {
+    setIsRegister(!isRegister);
+  }
+
+  const [isRegister, setIsRegister] = useState(false);
+  function renderRegisHandler() {
+    setIsLogin(!isLogin);
+    setIsRegister(!isRegister);
   }
 
   return (
     <nav className="navbar">
       <div className="nav-wrapper">
         <div className="logo">
-          <NavLink to="/" style={{ textDecoration: "none" }}>
-            <h1>Tramuda</h1>
+          <NavLink
+            to="/"
+            style={{ textDecoration: "none" }}
+            className="logo__container"
+          >
+            <img src={logo} alt={logo} />
+            {/* <h1>Tramuda</h1> */}
           </NavLink>
         </div>
         <div className="burger" onClick={isActiveHandler}>
@@ -98,13 +115,26 @@ function Navbar() {
             </NavLink>
           </div>
           <Tilt>
-            <div className="loginBtn item" onClick={renderLogin}>
-              <button className="button">Login</button>
+            <div className="loginBtn item">
+              <button className="button" onClick={firstRenderLoginHandler}>
+                Login
+              </button>
             </div>
           </Tilt>
         </div>
       </div>
-      {isLogin && <Login renderLogin={renderLogin} />}
+      {isLogin && (
+        <Login
+          renderRegisHandler={renderRegisHandler}
+          closeHandler={firstRenderLoginHandler}
+        />
+      )}
+      {isRegister && (
+        <Register
+          renderLoginHandler={renderLoginHandler}
+          closeHandler={firstRenderRegisHandler}
+        />
+      )}
     </nav>
   );
 }

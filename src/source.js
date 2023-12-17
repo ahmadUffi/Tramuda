@@ -2,7 +2,7 @@ import Gendang from "./assets/img/gendang/Gendang.png";
 import Rebab from "./assets/img/rebab/Rebab.png";
 import Serunai from "./assets/img/serunai/Serunai.png";
 import Siter from "./assets/img/siter/Siter.png";
-import Angklung_Bali from "./assets/img/angklung_bali/Angklung_Bali.png";
+// import Angklung_Bali from "./assets/img/angklung_bali/Angklung_Bali.png";
 import Angklung_Jawa from "./assets/img/angklung_jawa/Angklung_Jawa.png";
 import Gandrang_Bulo from "./assets/img/gandrang_bulo/Gandrang_Bulo.png";
 import Tambua from "./assets/img/tambua/Tambua.png";
@@ -11,48 +11,50 @@ import Tifa from "./assets/img/tifa/Tifa.png";
 const items = [
   {
     id: 0,
-    iframe: `<iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ARc1aHnwsYc?si=AAjUDuLpgiKfFU4t"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        ></iframe>`,
-
+    iframe: `
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/ARc1aHnwsYc?si=AAjUDuLpgiKfFU4t"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `,
     iframe_2: `
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/N-6agJmUh7A?si=fH-wCzWCxOyZArnj"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/N-6agJmUh7A?si=fH-wCzWCxOyZArnj"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `,
     iframe_3: `
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/xDoOtTxMzlQ?si=_BUa7mhVYdlKaDBy"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/xDoOtTxMzlQ?si=_BUa7mhVYdlKaDBy"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `,
     iframe_4: `
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/53g21AJzrj4?si=Vcun1rlbxVgrw-4M"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/53g21AJzrj4?si=Vcun1rlbxVgrw-4M"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `,
     prestasi:
       "Dalam skala Nasional, Penggunaan gendang digunakan di berbagai kesenian tradisional, termasuk dalam tari-tarian dan upacara adat Jawa.",
     img: Gendang,
@@ -191,8 +193,7 @@ const items = [
         
       ></iframe>
     `,
-    iframe_2: `
-      <iframe
+    iframe_2: `<iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/Z8lIue5jMfw?si=vcW2vUO56ZBAOyKR"
@@ -202,28 +203,24 @@ const items = [
         
       ></iframe>
     `,
-    iframe_3: `
-      <iframe
+    iframe_3: `<iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/Fh3UbuJhMcI?si=W5-186UdwzWJEmZ6"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
-    iframe_4: `
-      <iframe
+        allowfullscreen
+      ></iframe`,
+    iframe_4: `<iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/u2DPrhv5G1M?si=tua5twCSlECeerl9"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
+        allowfullscreen
+      ></iframe>`,
     prestasi:
       "Dalam skala Nasional, Pemakaian siter digunakan dalam pertunjukan seni tradisional Jawa.",
     img: Siter,
@@ -256,9 +253,8 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
+        allowfullscreen
+      ></iframe>`,
     iframe_3: `
       <iframe
         width="560"
@@ -267,7 +263,6 @@ const items = [
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
       ></iframe>
     `,
     iframe_4: `
@@ -279,8 +274,7 @@ const items = [
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         
-      ></iframe>
-    `,
+      ></iframe>`,
     prestasi:
       "Secara Internasional, mendapatkan Pengakuan sebagai Warisan Kemanusiaan Nonbendawi oleh UNESCO pada tahun 2010.",
     img: Angklung_Jawa,
@@ -330,8 +324,7 @@ const items = [
         
       ></iframe>
     `,
-    iframe_3: `
-      <iframe
+    iframe_3: `      <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/dQQhmzNDADc?si=ThIcZnf_EnJ8bBha"
@@ -341,17 +334,15 @@ const items = [
         
       ></iframe>
     `,
-    iframe_4: `
-      <iframe
+    iframe_4: `      <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/N2Eretq2ccU?si=SqcoOX5dSEHc_MXj"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        
-      ></iframe>
-    `,
+        allowfullscreen
+      ></iframe>`,
     prestasi:
       "Dalam skala Nasional, Penggunaan gandrang bulo dalam upacara adat suku Tana Toraja di Sulawesi Selatan.",
     img: Gandrang_Bulo,
@@ -430,8 +421,8 @@ const items = [
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         
       ></iframe>
-    ),
-    iframe_2: (
+    `,
+    iframe_2: `
       <iframe
         width="560"
         height="315"

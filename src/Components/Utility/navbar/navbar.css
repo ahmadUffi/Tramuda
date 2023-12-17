@@ -6,13 +6,14 @@
   left: 0;
   z-index: 999;
   background-color: var(--black);
+  padding: 8px 5px;
 }
 
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 3.9rem;
+  height: 4rem;
 }
 
 .nav-wrapper .burger {
@@ -33,6 +34,17 @@
   margin-left: 25px;
   display: grid;
   place-items: center;
+}
+
+.nav-wrapper .logo .logo__container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-wrapper .logo img {
+  width: 120px;
+  object-fit: cover;
 }
 
 .nav-wrapper .logo h1 {

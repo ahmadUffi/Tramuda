@@ -3,7 +3,7 @@ import Modal from "../../Utility/modal/Modal";
 import "./login.css";
 import { Link } from "react-router-dom";
 
-function Login({ renderLogin }) {
+function Login({ closeHandler, renderRegisHandler }) {
   return (
     <Modal>
       <div className="login">
@@ -13,7 +13,7 @@ function Login({ renderLogin }) {
           </div>
           <h1>Selamat Berkunjung!</h1>
           <div>
-            <p style={{ marginTop: "-5px" }}>Silakan Sign In terlebih dahulu</p>
+            <p>Silakan Sign In terlebih dahulu</p>
           </div>
           <div className="input-container" style={{ marginTop: "10px" }}>
             <label htmlFor="username">Username :</label>
@@ -24,17 +24,19 @@ function Login({ renderLogin }) {
             <input type="password" name="pass" placeholder="Password" />
           </div>
           <div className="fiturLain">
-            <Link to="/register" className="linkDom">
+            <div className="linkDom">
               <p href="#">Lupa Password</p>
-            </Link>
-            <Link to="/register" className="linkDom">
-              <p href="#">Buat akun baru</p>
-            </Link>
+            </div>
+            <div className="linkDom">
+              <p href="#" onClick={renderRegisHandler}>
+                Buat akun baru
+              </p>
+            </div>
           </div>
           <div className="akunBtn">
             <button className="button">Login</button>
           </div>
-          <div className="close" onClick={renderLogin}>
+          <div className="close" onClick={closeHandler}>
             X
           </div>
         </div>
