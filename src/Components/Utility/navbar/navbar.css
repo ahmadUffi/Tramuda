@@ -115,7 +115,7 @@
   }
   .navbar .nav-wrapper .items.active {
     position: absolute;
-    background-color: rgba(1, 2, 2, 0.9);
+    background-color: rgba(1, 2, 2, 0.9) !important;
     display: flex;
     flex-direction: column;
     justify-content: center;

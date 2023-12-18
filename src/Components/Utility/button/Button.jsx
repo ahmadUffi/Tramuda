@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Button({ action, className, style, noScroll, onClick }) {
   function scrollTop() {
-    window.scrollTo(top);
+    window.scrollTo(0, 0);
   }
 
   noScroll = false;
