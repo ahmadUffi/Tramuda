@@ -79,47 +79,23 @@
 
 /* Warna untuk Cara main */
 .Dipukul {
-  background-color: var( --kategory1-primary);
-  color: var( --kategory1-secondary);
-  box-shadow: 0px 1px 1px 0px var( --kategory1-secondary);
-  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory1-secondary);
-  -moz-box-shadow: 0px 1px 1px 0px var( --kategory1-secondary);
+  background-color: var( --kategory1);
 }
 
 .Digesek {
-  background-color: var( --kategory2-primary);
-  color: var( --kategory2-secondary);
-  box-shadow: 0px 1px 1px 0px var( --kategory2-secondary);
-  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory2-secondary);
-  -moz-box-shadow: 0px 1px 1px 0px var( --kategory2-secondary);
+  background-color: var( --kategory2);
 }
 .Ditiup {
-  background-color: var( --kategory3-primary);
-  color: var( --kategory3-secondary);
-  box-shadow: 0px 1px 1px 0px var( --kategory3-secondary);
-  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory3-secondary);
-  -moz-box-shadow: 0px 1px 1px 0px var( --kategory3-secondary);
+  background-color: var( --kategory3);
 }
 .Dipetik {
-  background-color: var( --kategory4-primary);
-  color: var( --kategory4-secondary);
-  box-shadow: 0px 1px 1px 0px var( --kategory4-secondary);
-  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory4-secondary);
-  -moz-box-shadow: 0px 1px 1px 0px var( --kategory4-secondary);
+  background-color: var( --kategory4);
 }
 .Digoyang {
-  background-color: var( --kategory5-primary);
-  color: var( --kategory5-secondary);
-  box-shadow: 0px 1px 1px 0px var( --kategory5-secondary);
-  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory5-secondary);
-  -moz-box-shadow: 0px 1px 1px 0px var( --kategory5-secondary);
+  background-color: var( --kategory5);
 }
 .Ditabuh {
-  background-color: var( --kategory6-primary);
-  color: var( --kategory6-secondary);
-  box-shadow: 0px 1px 1px 0px var( --kategory6-secondary);
-  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory6-secondary);
-  -moz-box-shadow: 0px 1px 1px 0px var( --kategory6-secondary);
+  background-color: var( --kategory6);
 }
 
 .boxRiwayat .containerRiwayat .img {

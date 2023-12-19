@@ -10,23 +10,18 @@
   --black: #080808;
 
   /* Warna untuk kategori */
-  --kategory1-primary: #02343F;
-  --kategory1-secondary: #F0EDCC;
+  --kategory1: #F0EDCC;
 
-  --kategory2-primary: #0A174E;
-  --kategory2-secondary: #F5D042;
-  
-  --kategory3-primary: #295F2E;
-  --kategory3-secondary: #FFE67C;
+  --kategory2: #A5F1E9;
 
-  --kategory4-primary: #9000FF;
-  --kategory4-secondary: #FFE8F5;
+  --kategory3: #36dd47;
 
-  --kategory5-primary: #4A171E;
-  --kategory5-secondary: #E2B143;
+  --kategory4: #9000FF;
 
-  --kategory6-primary: #A4193D;
-  --kategory6-secondary: #FFDFB9;
+  --kategory5: #E2B143;
+
+  --kategory6: #FFA1F5;
+
 
   /* font */
   --agbalumo: "Agbalumo", cursive;
