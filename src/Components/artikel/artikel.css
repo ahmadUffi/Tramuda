@@ -154,7 +154,6 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 3.7rem;
-  gap: 24px;
 }
 .watchCard {
   border-radius: 10px;

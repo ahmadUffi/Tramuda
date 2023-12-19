@@ -3,7 +3,7 @@ import "./navbar.css";
 import Tilt from "react-parallax-tilt";
 import { useState } from "react";
 import Login from "../../auth/login/Login";
-import Register from "../../auth/register/register";
+import Register from "../../auth/register/Register";
 import logo from "../../../assets/logo.png";
 
 function Navbar() {
