@@ -4,7 +4,7 @@ import Akun from "./Components/akun/Akun";
 import Kontak from "./Components/kontak/Kontak";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Artikel from "./Components/artikel/Artikel";
-import Register from "./Components/auth/register/register";
+import Register from "./Components/auth/register/Register";
 
 function App() {
   return (
