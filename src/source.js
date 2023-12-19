@@ -278,7 +278,7 @@ const items = [
     prestasi:
       "Secara Internasional, mendapatkan Pengakuan sebagai Warisan Kemanusiaan Nonbendawi oleh UNESCO pada tahun 2010.",
     img: Angklung_Jawa,
-    nama: "Angklung Jawa",
+    nama: "Angklung",
     memainkan: "Digoyang",
     threeD: "67828b9e9fce43d3b46f902e99c17f65",
     embade:
@@ -288,17 +288,6 @@ const items = [
     p2: "Angklung dimainkan dengan cara dipukul menggunakan tangan. Ketika angklung digoyangkan, tabung-tabung bambu akan saling bertabrakan, menghasilkan suara yang indah. Berbagai tinggi nada dapat dihasilkan dengan memukul angklung yang berbeda. Meskipun angklung Sunda adalah yang paling terkenal, setiap daerah di Indonesia memiliki variasi angklungnya sendiri, baik dalam hal konstruksi, teknik bermain, maupun lagu-lagu tradisional yang diperdengarkan. Angklung memiliki peran penting dalam budaya Jawa dan Indonesia pada umumnya. Ini sering digunakan dalam berbagai pertunjukan seni tradisional, tari-tarian, dan upacara adat. Keunikan suara angklung menciptakan atmosfer yang khas dan mendalam dalam berbagai acara budaya.",
     p3: "Pada tahun 2010, Angklung diakui oleh UNESCO sebagai Warisan Budaya Tak Benda dari Indonesia. Pengakuan ini menunjukkan nilai budaya dan sejarah yang tinggi dari instrumen musik ini, serta upaya untuk melestarikan dan menghargai kekayaan budaya Indonesia.",
   },
-
-  // {
-  //   id: 5,
-  //   img: Angklung_Bali,
-  //   nama: "Angklung Bali",
-  //   memainkan: "Ditabuh dengan pemukul",
-  //   asal: "Bali",
-  //   threeD: "67a63a275dc94aa1b2ef98ef78479e41",
-  //   p1: "Angklung Bali adalah instrumen musik tradisional yang telah diperkenalkan di Bali sejak zaman dahulu. Meskipun awalnya berasal dari Jawa, Angklung telah mengalami variasi dan modifikasi untuk mencocokkan kekhasan dan karakteristik seni musik Bali yang unik. Seperti angklung pada umumnya, Angklung Bali terbuat dari bambu. Namun, dalam Angklung Bali, bambu diukir dengan seni ukir Bali yang khas, menciptakan desain yang elegan dan indah. Bambu-bambu ini diatur dalam kelompok dan diikat dengan tali rotan atau anyaman bambu. Angklung Bali dimainkan dengan cara dipukul atau digoyangkan. Setiap tabung bambu menghasilkan nada tertentu saat dipukul, dan dengan menyusun beberapa tabung tersebut, pemain dapat menciptakan melodi yang indah. Seringkali, Angklung Bali dimainkan secara berkelompok, di mana setiap pemain bertanggung jawab atas beberapa nada untuk menciptakan harmoni yang kaya.",
-  //   p2: "Angklung Bali memiliki peran penting dalam berbagai acara budaya di Bali. Instrumen ini sering digunakan dalam pengiring tarian-tarian Bali yang memukau, seperti tari kecak atau tari pendet. Selain itu, Angklung Bali juga sering diperdengarkan dalam upacara adat, upacara keagamaan, dan berbagai pertunjukan seni tradisional di pulau tersebut. Seperti instrumen musik tradisional lainnya, Angklung Bali memiliki makna simbolis yang dalam dalam konteks budaya Bali. Suaranya dianggap memiliki kekuatan spiritual dan sering digunakan untuk membangun atmosfer sakral dalam upacara keagamaan.",
-  // },
 
   {
     id: 6,

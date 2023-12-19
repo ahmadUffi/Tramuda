@@ -14,7 +14,7 @@ function Navbar() {
   }
 
   function scrollTop() {
-    window.scrollTo(top);
+    window.scrollTo(0, 0);
   }
 
   const [isLogin, setIsLogin] = useState(false);
