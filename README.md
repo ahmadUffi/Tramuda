@@ -15,7 +15,7 @@ Tradisional Musik Daerah (Tramuda) merupakan Platform edukasi yang memperkenalak
 
 ## Introduction
 
-Diisi apa kira2? tolong isiin
+Tramuda memberikan pengalaman yang berbeda kepada Pengguna agar bisa bereksplorasi pada Platform Tramuda dengan mencari beragam jenis alat musik disertai Gambar 3D yang futuristik dan kreatif.
 
 ## Screenshots
 
@@ -70,7 +70,7 @@ npm run start
 
 ## Feedback
 
-Jika kamu memiliki kritik atau saran silahkan hubungi kontak yang tersedia.
+Jika Anda memiliki kritik atau saran silahkan hubungi kontak yang tersedia.
 
 ## Contribution's
 

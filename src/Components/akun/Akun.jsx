@@ -24,7 +24,7 @@ function Akun() {
       </div>
       <div className="riwayat">
         <div className="btnRiwayat" onClick={activeHandler}>
-          <Button action="Alat Musik Favorit" />
+          <Button action="Alat Musik Yang Disukai" />
         </div>
         <hr className="hr" />
         <div
@@ -39,6 +39,7 @@ function Akun() {
               paragraf={riwayat.p1}
               allItem={riwayat}
               delay={riwayat.id}
+              caraMain={riwayat.memainkan}
             />
           ))}
         </div>

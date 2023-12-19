@@ -8,6 +8,26 @@
   --green: #5c5947;
   --yellow: #ed8f27;
   --black: #080808;
+
+  /* Warna untuk kategori */
+  --kategory1-primary: #02343F;
+  --kategory1-secondary: #F0EDCC;
+
+  --kategory2-primary: #0A174E;
+  --kategory2-secondary: #F5D042;
+  
+  --kategory3-primary: #295F2E;
+  --kategory3-secondary: #FFE67C;
+
+  --kategory4-primary: #9000FF;
+  --kategory4-secondary: #FFE8F5;
+
+  --kategory5-primary: #4A171E;
+  --kategory5-secondary: #E2B143;
+
+  --kategory6-primary: #A4193D;
+  --kategory6-secondary: #FFDFB9;
+
   /* font */
   --agbalumo: "Agbalumo", cursive;
   --poppins: "Poppins", sans-serif;

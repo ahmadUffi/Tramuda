@@ -4,6 +4,14 @@ import Tilt from "react-parallax-tilt";
 import "./box.css";
 
 function Box({ title, asal, gambar, paragraf, allItem, caraMain }) {
+  
+  let caramain;
+
+  if(caraMain == "Ditabuh dengan pemukul") {
+    caramain = "Ditabuh"
+  } else {
+    caramain = caraMain
+  }
   return (
     <Tilt glareEnable={true} glareMaxOpacity={0.2}>
       <div className="box">
@@ -75,7 +83,7 @@ function Box({ title, asal, gambar, paragraf, allItem, caraMain }) {
             </div>
           </div>
           <div className="overlay__main">
-            <span>{caraMain}</span>
+            <span className={caramain}>{caraMain}</span>
           </div>
         </div>
       </div>

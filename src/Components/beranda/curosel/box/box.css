@@ -27,13 +27,66 @@
   position: absolute;
   top: 5px;
   left: 10px;
+
 }
 
 .container .overlay__main span {
-  font-size: 0.65rem;
+  font-size: 0.5rem;
   letter-spacing: 1px;
   text-transform: capitalize;
+  border-radius: 5px;
+  padding: 3px 10px;
+  /* text-shadow: 0 0 1px rgba(0, 0, 0, 0.7); */
+  font-weight: 600;
+  /* color: black; */
+ 
 }
+
+/* Warna untuk Cara main */
+.Dipukul {
+  background-color: var( --kategory1-primary);
+  color: var( --kategory1-secondary);
+  box-shadow: 0px 1px 1px 0px var( --kategory1-secondary);
+  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory1-secondary);
+  -moz-box-shadow: 0px 1px 1px 0px var( --kategory1-secondary);
+}
+.Digesek {
+  background-color: var( --kategory2-primary);
+  color: var( --kategory2-secondary);
+  box-shadow: 0px 1px 1px 0px var( --kategory2-secondary);
+  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory2-secondary);
+  -moz-box-shadow: 0px 1px 1px 0px var( --kategory2-secondary);
+}
+.Ditiup {
+  background-color: var( --kategory3-primary);
+  color: var( --kategory3-secondary);
+  box-shadow: 0px 1px 1px 0px var( --kategory3-secondary);
+  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory3-secondary);
+  -moz-box-shadow: 0px 1px 1px 0px var( --kategory3-secondary);
+}
+.Dipetik {
+  background-color: var( --kategory4-primary);
+  color: var( --kategory4-secondary);
+  box-shadow: 0px 1px 1px 0px var( --kategory4-secondary);
+  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory4-secondary);
+  -moz-box-shadow: 0px 1px 1px 0px var( --kategory4-secondary);
+}
+.Digoyang {
+  background-color: var( --kategory5-primary);
+  color: var( --kategory5-secondary);
+  box-shadow: 0px 1px 1px 0px var( --kategory5-secondary);
+  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory5-secondary);
+  -moz-box-shadow: 0px 1px 1px 0px var( --kategory5-secondary);
+}
+.Ditabuh {
+  background-color: var( --kategory6-primary);
+  color: var( --kategory6-secondary);
+  box-shadow: 0px 1px 1px 0px var( --kategory6-secondary);
+  -webkit-box-shadow: 0px 1px 1px 0px var( --kategory6-secondary);
+  -moz-box-shadow: 0px 1px 1px 0px var( --kategory6-secondary);
+}
+
+/* Warna untuk Cara main */
 .container::before {
   content: "";
   display: block;
