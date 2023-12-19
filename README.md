@@ -15,7 +15,7 @@ Tradisional Musik Daerah (Tramuda) merupakan Platform edukasi yang memperkenalak
 
 ## Introduction
 
-Kami adalah Mahasiswa angkatan 2023 Institut Teknologi Telkom Purwokerto dari Fakultas Informatika, Prodi Software Engineering.
+Tramuda memberikan pengalaman yang berbeda kepada Pengguna agar bisa bereksplorasi pada Platform Tramuda dengan mencari beragam jenis alat musik disertai Gambar 3D yang futuristik dan kreatif.
 
 ## Screenshots
 
