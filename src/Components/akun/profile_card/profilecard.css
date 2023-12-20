@@ -1,5 +1,6 @@
 .akun_box {
   margin-top: 23px;
+  position: relative;
 }
 
 .akun_box .akun {
@@ -62,6 +63,38 @@
   animation-delay: 1.7s;
   opacity: 0;
 }
+#setting {
+  position: relative;
+}
+.akun_box .setting__profile {
+  background-color: var(--white);
+  backdrop-filter: blur(5px);
+  color: var(--primary);
+  position: absolute;
+  top: 110%;
+  left: 45%;
+  border-radius: 5px;
+  padding: 5px 0;
+  z-index: 90;
+  /* border: 1px solid rgba(0, 0, 0, 0.5); */
+  width: max-content;
+  opacity: 0;
+}
+
+.akun_box .setting__profile ul {
+  list-style: none;
+}
+
+.akun_box .setting__profile ul li {
+  margin: 3px 0;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.akun_box .setting__profile ul li:hover {
+  background-color: rgba(167, 194, 244, 0.4);
+}
 
 @media screen and (max-width: 790px) {
   .akun_box .akun {
@@ -87,6 +120,9 @@
 @media screen and (max-width: 480px) {
   .akun_box .akun {
     height: 280px;
+  }
+  .akun_box .setting__profile ul li {
+    font-size: 12px;
   }
   .akun_box .akun .akun_description h3 {
     font-size: 16px;

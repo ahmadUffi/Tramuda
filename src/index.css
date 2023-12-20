@@ -108,7 +108,7 @@ body::-webkit-scrollbar {
 
 @keyframes opacity {
   from {
-    opacity: o;
+    opacity: 0;
   }
 
   to {
@@ -161,7 +161,7 @@ body::-webkit-scrollbar {
     width: 55%;
   }
   50% {
-    width: 45%;
+    width: 45 %;
   }
 
   100% {
