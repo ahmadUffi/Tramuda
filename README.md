@@ -19,8 +19,8 @@ Tramuda memberikan pengalaman yang berbeda kepada Pengguna agar bisa bereksplora
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/YyRDxZY/Hero-Tramuda.png) <br />
-Pada halaman pertama dari Platform Tramuda terdapat Hero Section yang memiliki <br /> Background Video Kesenian Musik, Deskripsi, dan Button "Mulai Belajar"
+![App Screenshot](https://i.ibb.co/YyRDxZY/Hero-Tramuda.png) 
+<br /> Pada halaman pertama dari Platform Tramuda terdapat Hero Section yang memiliki <br /> Background Video Kesenian Musik, Deskripsi, dan Button "Mulai Belajar"
 ![App Screenshot](https://i.ibb.co/ZJ70SVB/Beranda-Tramuda.png)
 ![App Screenshot](https://i.ibb.co/nb4P6BW/Beranda2-Tramuda.png)
 ![App Screenshot](https://i.ibb.co/55v1xDR/Akun-Tramuda.png)
