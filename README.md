@@ -87,7 +87,7 @@ npm install
 Start the server
 
 ```bash
-npm run start
+npm run dev
 ```
 
 ## Acknowledgements
@@ -96,6 +96,8 @@ npm run start
 - [NPM](https://www.npmjs.com/)
 - [AOS](https://michalsnik.github.io/aos/)
 - [VanilaCSS](https://vanillacss.com/)
+- [React-Router](https://reactrouter.com/en/main)
+- [React-Tilt](mkosir.github.io/react-parallax-tilt)
 
 ## Feedback
 
