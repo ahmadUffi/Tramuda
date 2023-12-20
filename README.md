@@ -1,3 +1,4 @@
+[ Web Desain }
 # Tramuda 🚀
 
 Tradisional Musik Daerah (Tramuda) merupakan Platform edukasi yang memperkenalkan <br /> alat musik tradisional yang ada di Indonesia
@@ -93,16 +94,13 @@ npm run dev
 ## Acknowledgements
 
 - [ReactJs](https://react.dev/)
-- [NPM](https://www.npmjs.com/)
 - [AOS](https://michalsnik.github.io/aos/)
-- [VanilaCSS](https://vanillacss.com/)
 - [React-Router](https://reactrouter.com/en/main)
-- [React-Tilt](mkosir.github.io/react-parallax-tilt)
+- [React-Parallax-Tilt](mkosir.github.io/react-parallax-tilt)
 
 ## Feedback
 
-Jika Anda memiliki kritik atau saran silahkan hubungi kontak yang tersedia.
-
+Jika Anda memiliki kritik atau saran kami sangat membuka untuk kontribsi anda
 ## Contribution's
 
 - [@AhmadUffi](https://github.com/ahmadUffi)
