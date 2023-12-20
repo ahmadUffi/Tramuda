@@ -20,6 +20,15 @@ Tramuda memberikan pengalaman yang berbeda kepada Pengguna agar bisa bereksplora
 ## Screenshots
 
 ![App Screenshot](https://i.ibb.co/YyRDxZY/Hero-Tramuda.png)
+Pada halaman pertama dari Platform Tramuda terdapat [Hero Section]
+![App Screenshot](https://i.ibb.co/ZJ70SVB/Beranda-Tramuda.png)
+![App Screenshot](https://i.ibb.co/nb4P6BW/Beranda2-Tramuda.png)
+![App Screenshot](https://i.ibb.co/55v1xDR/Akun-Tramuda.png)
+![App Screenshot](https://i.ibb.co/kMp1DzS/Kontak-Tramuda.png)
+![App Screenshot](https://i.ibb.co/FBKzzdB/Artikel-Tramuda.png)
+![App Screenshot](https://i.ibb.co/rxMbSzr/Artikel-Button-Tramuda.png)
+![App Screenshot](https://i.ibb.co/F4YtSkt/Video-Button-Tramuda.png)
+
 
 
 ## Tech Stack
