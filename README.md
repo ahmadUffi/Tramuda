@@ -18,6 +18,7 @@ Tradisional Musik Daerah (Tramuda) merupakan Platform edukasi yang memperkenalka
 Tramuda memberikan pengalaman yang berbeda kepada Pengguna agar bisa bereksplorasi pada Platform Tramuda dengan mencari beragam jenis alat musik disertai Gambar 3D yang futuristik dan kreatif.
 
 ## Screenshots
+# Hero Section
 
 ![App Screenshot](https://i.ibb.co/YyRDxZY/Hero-Tramuda.png) 
 <br /> Pada halaman pertama dari Platform Tramuda terdapat Hero Section yang memiliki Background Video Kesenian Musik, Deskripsi, dan Button "Mulai Belajar" <br />
