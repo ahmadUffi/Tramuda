@@ -1,6 +1,5 @@
 import "./filter.css";
 import items from "../../../source";
-import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 import { useRef, useState } from "react";
 import DropdownCustom from "./DropdownCustom";
