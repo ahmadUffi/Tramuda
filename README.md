@@ -19,7 +19,7 @@ Tramuda memberikan pengalaman yang berbeda kepada Pengguna agar bisa bereksplora
 
 ## Screenshots
 
-![Uploading Hero_Tramuda.png…]()
+![App Screenshot](https://i.ibb.co/YyRDxZY/Hero-Tramuda.png)
 
 
 ## Tech Stack
