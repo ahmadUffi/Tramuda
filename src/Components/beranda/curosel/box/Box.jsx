@@ -75,7 +75,7 @@ function Box({ title, asal, gambar, paragraf, allItem, caraMain }) {
             </div>
           </div>
           <div className="overlay__main">
-            <span>{caraMain}</span>
+            <span className={caraMain}>{caraMain}</span>
           </div>
         </div>
       </div>

@@ -8,6 +8,21 @@
   --green: #5c5947;
   --yellow: #ed8f27;
   --black: #080808;
+
+  /* Warna untuk kategori */
+  --kategory1: #F0EDCC;
+
+  --kategory2: #A5F1E9;
+
+  --kategory3: #36dd47;
+
+  --kategory4: #9000FF;
+
+  --kategory5: #E2B143;
+
+  --kategory6: #FFA1F5;
+
+
   /* font */
   --agbalumo: "Agbalumo", cursive;
   --poppins: "Poppins", sans-serif;
