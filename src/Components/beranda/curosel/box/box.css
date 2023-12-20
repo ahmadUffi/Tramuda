@@ -30,10 +30,40 @@
 }
 
 .container .overlay__main span {
-  font-size: 0.65rem;
+  font-size: 0.5rem;
   letter-spacing: 1px;
   text-transform: capitalize;
+  border-radius: 5px;
+  padding: 3px 10px;
+  /* text-shadow: 0 0 1px rgba(0, 0, 0, 0.7); */
+  font-weight: 600;
+  color: black;
+ 
 }
+
+/* Warna untuk Cara main */
+.Dipukul {
+  background-color: var( --kategory1-primary);
+}
+.Digesek {
+  background-color: var( --kategory2-primary);
+ 
+}
+.Ditiup {
+  background-color: var( --kategory3-primary);
+ 
+}
+.Dipetik {
+  background-color: var( --kategory4-primary);
+}
+.Digoyang {
+  background-color: var( --kategory5-primary);
+}
+.Ditabuh {
+  background-color: var( --kategory6-primary);
+}
+
+/* Warna untuk Cara main */
 .container::before {
   content: "";
   display: block;

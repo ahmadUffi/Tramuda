@@ -39,6 +39,7 @@ function Akun() {
               paragraf={riwayat.p1}
               allItem={riwayat}
               delay={riwayat.id}
+              caraMain={riwayat.memainkan}
             />
           ))}
         </div>
