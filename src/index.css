@@ -143,10 +143,10 @@ body::-webkit-scrollbar {
 
 @keyframes jetBus {
   0% {
-    width: 88%;
+    width: 55%;
   }
   50% {
-    width: 55%;
+    width: 45%;
   }
 
   100% {

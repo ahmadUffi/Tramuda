@@ -10,7 +10,7 @@ const Profilecard = () => {
         <div className="akun_description">
           <h3>Nur Laily Fitri Mahfudho</h3>
           <h6 className="email">nurLaily2024@gmail.com</h6>
-          <p className="asal">Purwokerto - Jawa Timur</p>
+          <p className="asal">Purwokerto - Jawa Tengah</p>
           <Button action="Edit Profile" />
         </div>
       </div>
