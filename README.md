@@ -94,7 +94,8 @@ npm run start
 
 - [ReactJs](https://react.dev/)
 - [NPM](https://www.npmjs.com/)
-- [Three](https://threejs.org/)
+- [AOS](https://michalsnik.github.io/aos/)
+- [VanilaCSS](https://vanillacss.com/)
 
 ## Feedback
 
