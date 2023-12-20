@@ -1,6 +1,6 @@
 # Tramuda 🚀
 
-Tradisional Musik Daerah (Tramuda) merupakan Platform edukasi yang memperkenalakan <br /> alat musik tradisional yang ada di Indonesia
+Tradisional Musik Daerah (Tramuda) merupakan Platform edukasi yang memperkenalkan <br /> alat musik tradisional yang ada di Indonesia
 
 # Table of contents
 
@@ -20,7 +20,7 @@ Tramuda memberikan pengalaman yang berbeda kepada Pengguna agar bisa bereksplora
 ## Screenshots
 
 ![App Screenshot](https://i.ibb.co/YyRDxZY/Hero-Tramuda.png)
-Pada halaman pertama dari Platform Tramuda terdapat [Hero Section]
+Pada halaman pertama dari Platform Tramuda terdapat Hero Section yang memiliki <br /> Background Video Kesenian Musik, Deskripsi, dan Button "Mulai Belajar"
 ![App Screenshot](https://i.ibb.co/ZJ70SVB/Beranda-Tramuda.png)
 ![App Screenshot](https://i.ibb.co/nb4P6BW/Beranda2-Tramuda.png)
 ![App Screenshot](https://i.ibb.co/55v1xDR/Akun-Tramuda.png)
