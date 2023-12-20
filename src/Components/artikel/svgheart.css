@@ -1,0 +1,25 @@
+.heartSvg {
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+
+.heartSvg span {
+  color: white;
+  font-size: 14px;
+  margin-top: -7px;
+  opacity: 0.6;
+}
+
+.heartSvg span::after {
+  display: inline-block;
+  content: "Suka";
+  color: white;
+  margin-left: 2px;
+}
+
+@media screen and (max-width: 480px) {
+  .heartSvg span {
+    font-size: 12px;
+  }
+}

@@ -112,7 +112,7 @@ a {
   margin-bottom: 2px;
   transform: rotate(12deg);
 }
-#counterWrapper button:hover svg.icon__artikel {
+#counterWrapper button.no__active:hover:hover svg.icon__artikel {
   animation: 0.7s jetBusSvg ease-out;
 }
 
@@ -122,7 +122,7 @@ a {
   transform: rotate(12deg);
 }
 
-#counterWrapper button:hover svg.icon__video {
+#counterWrapper button.no__active:hover:hover svg.icon__video {
   animation: 0.7s jetBusSvg ease-out;
 }
 
@@ -130,19 +130,22 @@ a {
   position: absolute;
   content: "";
   display: block;
-  width: 88%;
+  width: 55%;
   height: 100%;
   left: 0;
   bottom: 0;
   border-radius: 5px;
   background-color: var(--yellow);
-  /* border-top-right-radius: 14px;
-  border-bottom-left-radius: 6px; */
   clip-path: polygon(0% 0%, 75% 0%, 82% 53%, 75% 100%, 0% 100%);
   z-index: -90;
+  transition: all 0.3s ease;
 }
 
-#counterWrapper button:hover::before {
+#counterWrapper button.active::before {
+  width: 150%;
+}
+
+#counterWrapper button.no__active:hover::before {
   animation: 0.6s jetBus forwards ease-out;
 }
 

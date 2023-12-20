@@ -83,6 +83,7 @@
     position: absolute;
     top: 40px;
     background-color: var(--white);
+    border-radius: 5px;
     flex-direction: column;
     transition: all 0.2s ease;
     display: none;

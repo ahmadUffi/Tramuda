@@ -85,7 +85,14 @@ function Artikel() {
             data-aos="fade-zoom-in-up"
             data-aos-easing="linear"
           >
-            <button className="buttonDetail" onClick={() => NewPage("details")}>
+            <button
+              className={
+                page == "details"
+                  ? "buttonDetail active"
+                  : "buttonDetail no__active"
+              }
+              onClick={() => NewPage("details")}
+            >
               <span>Artikel</span>
               <svg
                 width="50px"
@@ -146,7 +153,14 @@ function Artikel() {
                 </g>
               </svg>
             </button>
-            <button className="buttonDetail" onClick={() => NewPage("watch")}>
+            <button
+              className={
+                page == "watch"
+                  ? "buttonDetail active"
+                  : "buttonDetail no__active"
+              }
+              onClick={() => NewPage("watch")}
+            >
               <span> Video</span>
               <svg
                 width="32px"

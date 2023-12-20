@@ -3,13 +3,6 @@ import Tilt from "react-parallax-tilt";
 import ButtonFatch from "../../Utility/button/ButtonFatch";
 
 function Riwayat({ gambar, title, asal, paragraf, allItem, delay, caraMain }) {
-  let caramain;
-
-  if(caraMain == "Ditabuh dengan pemukul") {
-    caramain = "Ditabuh"
-  } else {
-    caramain = caraMain
-  }
 
   return (
     <Tilt glareEnable={true} glareMaxOpacity={0.1}>
@@ -85,7 +78,7 @@ function Riwayat({ gambar, title, asal, paragraf, allItem, delay, caraMain }) {
            </div>
           </div>
           <div className="overlay__main">
-            <span className={caramain}>{caraMain}</span>
+            <span className={caraMain}>{caraMain}</span>
           </div>
         </div>
       </div>
