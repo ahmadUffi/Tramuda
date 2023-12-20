@@ -1,0 +1,10 @@
+@media screen and (max-width: 720px) {
+  .sketchfab-embed-wrapper iframe {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sketchfab-embed-wrapper iframe {
+    height: 350px;
+  }
+}

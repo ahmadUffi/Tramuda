@@ -35,6 +35,7 @@ a {
   width: 100%;
   /* border: 1px solid yellow; */
   margin-left: 50%;
+  margin-top: 10px;
 }
 .viewDetail .down span {
   display: block;
@@ -295,6 +296,9 @@ a {
   .longDescription .secondImg img {
     width: 330px;
   }
+  .viewDetail .down {
+    margin-top: 15px;
+  }
 
   .watchCard {
     height: 340px !important;
@@ -309,6 +313,10 @@ a {
 
   .viewDetail {
     margin-top: -10px;
+  }
+
+  .viewDetail .down {
+    margin-top: 20px;
   }
 
   .shortDescription .icon {
