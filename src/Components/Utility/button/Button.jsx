@@ -8,7 +8,6 @@ function Button({ action, className, style, noScroll, onClick }) {
     window.scrollTo(0, 0);
   }
 
-  noScroll = false;
   return (
     <div className="button">
       <button

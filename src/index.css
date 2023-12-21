@@ -10,23 +10,23 @@
   --black: #080808;
 
   /* Warna untuk kategori */
-  --kategory1: #F0EDCC;
+  --kategory1: #f0edcc;
 
-  --kategory2: #A5F1E9;
+  --kategory2: #a5f1e9;
 
   --kategory3: #36dd47;
 
-  --kategory4: #9000FF;
+  --kategory4: #9000ff;
 
-  --kategory5: #E2B143;
+  --kategory5: #e2b143;
 
-  --kategory6: #FFA1F5;
-
+  --kategory6: #ffa1f5;
 
   /* font */
   --agbalumo: "Agbalumo", cursive;
   --poppins: "Poppins", sans-serif;
   --montserrat: "Montserrat", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 
   margin: 0;
   padding: 0;

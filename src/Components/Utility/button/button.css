@@ -3,6 +3,13 @@
   cursor: pointer;
 }
 
+.button:active {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
 button {
   outline: none;
   border: none;
@@ -17,7 +24,4 @@ button {
   text-transform: capitalize;
   letter-spacing: 1px;
   cursor: pointer;
-}
-
-button:active {
 }
