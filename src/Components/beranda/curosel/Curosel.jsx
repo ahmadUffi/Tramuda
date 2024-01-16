@@ -8,7 +8,7 @@ function Curosel({ filter }) {
         .filter((item) => {
           return filter.toLowerCase() === ""
             ? item
-            : item.nama.toLowerCase().includes(filter);
+            : item.nama.toLowerCase().includes(filter.toLowerCase());
         })
         .map((item) => (
           <Box

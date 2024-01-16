@@ -14,8 +14,8 @@ const Profilecard = () => {
       <div className="akun">
         <img src={profil} alt={profil} style={{ objectFit: "cover" }} />
         <div className="akun_description">
-          <h3>Nur Laily Fitri Mahfudho</h3>
-          <h6 className="email">nurLaily2024@gmail.com</h6>
+          <h3>Ahmad Satria Iswahyudi</h3>
+          <h6 className="email">ahmadIswahyudi2024@gmail.com</h6>
           <p className="asal">Purwokerto - Jawa Tengah</p>
           <div id="setting">
             <Button action="Setting Profile" onClick={settingsHnadler} />

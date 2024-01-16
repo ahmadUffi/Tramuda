@@ -1,12 +1,13 @@
 import { useContext } from "react";
 import "./footer.css";
-import { ItemsContext } from "../../../context/ItemContext";
 
 function Footer() {
-  const { item } = useContext(ItemsContext);
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <footer className="footer flex">
-      <h5>ⓒ 2023, Tramuda, Inc. All right reversed.</h5>
+      <h5>ⓒ {year} Tramuda Inc.</h5>
     </footer>
   );
 }

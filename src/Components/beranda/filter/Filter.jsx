@@ -55,7 +55,7 @@ function Filter({ setFilter }) {
             placeholder="Search..."
             onChange={(e) => setFilter(e.target.value)}
           />
-          <button>
+          <div className="button">
             <svg
               width="20px"
               height="20px"
@@ -70,7 +70,7 @@ function Filter({ setFilter }) {
                 fill="#ffffff"
               />
             </svg>
-          </button>
+          </div>
         </form>
       </div>
     </div>
