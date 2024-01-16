@@ -63,7 +63,7 @@
 
   box-shadow: none;
 }
-.search .form__control button {
+.search .form__control .button {
   background-color: transparent;
   cursor: pointer;
   border: none;

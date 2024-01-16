@@ -6,7 +6,7 @@ import Footer from "../Utility/footer/Footer";
 import items from "../../source.js";
 import Riwayat from "./riwayat/Riwayat.jsx";
 import Button from "../Utility/button/Button.jsx";
-import { useState } from "react";
+import { useContext, useState } from "react";
 
 function Akun() {
   const riwatItems = items.slice(0, 3);

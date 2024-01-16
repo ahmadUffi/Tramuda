@@ -1,10 +1,13 @@
 import "./profilecard.css";
 import profil from "../../../assets/img/akun/profile.jpg";
 import Button from "../../Utility/button/Button";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { AkunContext } from "../../../context/AkunContext";
 
 const Profilecard = () => {
   const [settings, setSettings] = useState(false);
+  const { user } = useContext(AkunContext);
+  const email = user.replace(/\s/g, "");
 
   function settingsHnadler() {
     setSettings(!settings);
@@ -14,8 +17,8 @@ const Profilecard = () => {
       <div className="akun">
         <img src={profil} alt={profil} style={{ objectFit: "cover" }} />
         <div className="akun_description">
-          <h3>Ahmad Satria Iswahyudi</h3>
-          <h6 className="email">ahmadIswahyudi2024@gmail.com</h6>
+          <h3>{user}</h3>
+          <h6 className="email">{email}2024@gmail.com</h6>
           <p className="asal">Purwokerto - Jawa Tengah</p>
           <div id="setting">
             <Button action="Setting Profile" onClick={settingsHnadler} />

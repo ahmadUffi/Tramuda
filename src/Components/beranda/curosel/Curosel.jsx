@@ -6,7 +6,7 @@ function Curosel({ filter }) {
     <div className="curosel">
       {items
         .filter((item) => {
-          return filter.toLowerCase() === ""
+          return filter.trim().toLowerCase() === ""
             ? item
             : item.nama.toLowerCase().includes(filter.toLowerCase());
         })

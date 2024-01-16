@@ -262,7 +262,7 @@ function Artikel() {
                     setValueIframe(item.iframe);
                     setIsIframe(true);
                   }}
-                  action="View Full"
+                  action="Mode Fokus"
                 />
               </div>
             </div>
@@ -277,7 +277,7 @@ function Artikel() {
                   setIsIframe(true);
                 }}
               >
-                <Button action="View Full" />
+                <Button action="Mode Fokus" />
               </div>
             </div>
             <div className="watchCard" data-aos="zoom-in">
@@ -290,7 +290,7 @@ function Artikel() {
                     setValueIframe(item.iframe_3);
                     setIsIframe(true);
                   }}
-                  action="View Full"
+                  action="Mode Fokus"
                 />
               </div>
             </div>
@@ -304,7 +304,7 @@ function Artikel() {
                     setValueIframe(item.iframe_4);
                     setIsIframe(true);
                   }}
-                  action="View Full"
+                  action="Mode Fokus"
                 />
               </div>
             </div>
