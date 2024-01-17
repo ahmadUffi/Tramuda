@@ -26,7 +26,6 @@ const Profilecard = () => {
               {settings && (
                 <ul>
                   <li>Edit Profile</li>
-                  <li>Remove Profile</li>
                   <li>Logout</li>
                 </ul>
               )}
